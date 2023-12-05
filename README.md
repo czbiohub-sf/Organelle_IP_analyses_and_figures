@@ -89,10 +89,10 @@ notebooks
 │   │   └── output
 |   |       └── ..
 │   └── panel_E
-│   │   ├── Fig5_E_Sankey_plot.ipynb
-│   │   └── output
-|   |       └── ..
-
+│       ├── Fig5_E_Sankey_plot.ipynb
+│       └── output
+|           └── ..
+└── Supplementary figures coming soon!
 ```
 
 
