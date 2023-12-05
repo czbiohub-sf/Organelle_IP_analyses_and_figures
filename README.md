@@ -9,7 +9,11 @@ This directory contains various external and processed datasets required to make
 
 
 ### `notebooks/`
-These are Jupyter notebooks that document how the figures were generated using the Python modules in `scripts/`. The notebooks used for each figure panel are [specified below](#where-to-find-the-code-and-data-used-to-generate-each-figure). These notebooks are the primary documentation for how the scripts in `scripts/` were used for analysis and figure generation. The notebooks should be executed in the order specified below, as the output of one notebook is used as input for the next.
+This directory includes a series of Jupyter notebooks that detail the analytical processes and methodologies used in the creation of each figure. These notebooks serve as the principal guide for understanding the application of the scripts and Python modules located in the scripts/ directory, specifically focusing on their roles in analysis and figure generation.
+
+We provide a structured tree diagram (below) representing the organization of the notebooks directory. This diagram clearly delineates the specific notebooks responsible for generating each panel of the figures.
+
+It is important to execute the notebooks sequentially, following the top-to-bottom order presented in the tree diagram. This ensures a smooth workflow, as many notebooks requires the output of their predecessors.
 
 ```
 notebooks
