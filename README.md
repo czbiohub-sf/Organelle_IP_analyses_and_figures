@@ -11,7 +11,7 @@ This directory contains various external and processed datasets required to make
 ### `notebooks/`
 This directory includes a series of Jupyter notebooks that detail the analytical processes and methodologies used in the creation of each figure. These notebooks serve as the principal guide for understanding the application of the scripts and Python modules located in the scripts/ directory, specifically focusing on their roles in analysis and figure generation.
 
-We provide a structured tree diagram (below) representing the organization of the notebooks directory. This diagram clearly delineates the specific notebooks responsible for generating each panel of the figures.
+We provide a structured tree diagram (below) representing the organization of the notebooks directory. This diagram delineates the specific notebooks responsible for generating each panel of the figures.
 
 It is important to execute the notebooks sequentially, following the top-to-bottom order presented in the tree diagram. This ensures a smooth workflow, as many notebooks requires the output of their predecessors.
 
