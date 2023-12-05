@@ -50,7 +50,7 @@ notebooks
 │   │   └── output
 |   |       └── ..
 │   └── panels_C_D
-│      ├── Fig3_C_D_cluster_connectivity.ipynb
+│      ├── Fig3_C_D_cluster_connectivity_and_Jaccard_coeff.ipynb
 │      └── output
 |          └── ..
 ├── Fig4
