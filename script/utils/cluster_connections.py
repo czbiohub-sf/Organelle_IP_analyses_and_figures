@@ -43,7 +43,8 @@ def clusterwise_connection(df_annot,nei_df, annot_col_name = "Graph-based_locali
             continue
 
         neighbors = get_neighbors_from_df(nei_df, g).iloc[0,2] # get the firs row, second column
-        neighbors = eval(neighbors) # convert string to dictionary
+        if isinstance(neighbors, str):
+            neighbors = eval(neighbors) # convert string to dictionary
         
         for nei in neighbors.keys(): # for each neighbor, check if it is in cluster 2
             if nei in c1_genes:

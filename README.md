@@ -106,6 +106,19 @@ notebooks
     |   ├── Suppl_fig2.ipynb
     │   └── output
     |       └── ..
+    ├── Suppl_fig3
+    |   ├── panel_B
+    |   |   ├── Suppl_fig3_B_IP_correlation_vs_interaction_stoi.ipynb
+    |   |   └── output
+    |   |       └── ..
+    |   ├── panel_C
+    |   |   ├── Suppl_fig3_C_tenary_plots.ipynb
+    |   |   └── output
+    |   |       └── ..
+    |   └── panel_E
+    |       ├── Suppl_fig3_classifier_ROC_AUC.ipynb
+    |       └── output
+    |           └── ..
 ```
 
 
