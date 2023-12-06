@@ -40,6 +40,10 @@ notebooks
 │   │   ├── Fig2_B_heatmap.ipynb
 │   │   └── output
 |   |       └── ..
+│   ├── panel_C
+│   │   ├── Fig2_C_consensus_annotation.ipynb
+│   │   └── output
+|   |       └── ..
 │   └── panel_D
 │       ├── Fig2_D_umap.ipynb
 │       └── output
@@ -92,7 +96,16 @@ notebooks
 │       ├── Fig5_E_Sankey_plot.ipynb
 │       └── output
 |           └── ..
-└── Supplementary figures coming soon!
+├── Fig6
+│   └── ..
+|
+└── Supplemenary_figs
+    ├── Suppl_fig1
+    |   └── ..
+    ├── Suppl_fig2
+    |   ├── Suppl_fig2.ipynb
+    │   └── output
+    |       └── ..
 ```
 
 
