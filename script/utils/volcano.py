@@ -17,7 +17,7 @@ def load_volcano_data(csv_path, label_path):
     labels_csv = label_path
     lookup_table = pd.read_csv(labels_csv)
     to_df = volcano_df["metadata"].copy()
-    list_of_cols_to_add = reversed(["Gene_name_canonical", "cluster_annotation"])
+    list_of_cols_to_add = reversed(["Gene_name_canonical", "consensus_graph_annnotation"])
     for c in list_of_cols_to_add:
         new_col_data = attach_annotations(from_df=lookup_table, to_df=to_df, anno_col=c , from_on="Majority protein IDs", to_on="Majority protein IDs")
         volcano_df[("metadata", c)] = new_col_data
