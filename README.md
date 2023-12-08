@@ -116,7 +116,7 @@ notebooks
     |   |   └── output
     |   |       └── ..
     |   └── panel_E
-    |       ├── Suppl_fig3_classifier_ROC_AUC.ipynb
+    |       ├── Suppl_fig3_E_XGBoost_classifier.ipynb
     |       └── output
     |           └── ..
 ```
