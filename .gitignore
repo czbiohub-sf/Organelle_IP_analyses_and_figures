@@ -1,5 +1,6 @@
 data/MaxQuant/proteinGroups_2023-02-08_big_quant.txt
 output/
+notebooks/Fig3/panels_C_D/compare_Jaccard.ipynb
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
