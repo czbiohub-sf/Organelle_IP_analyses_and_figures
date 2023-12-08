@@ -5,7 +5,7 @@ from collections import Counter
 import matplotlib.pyplot as plt
 import matplotlib.colors as mcolors
 
-def get_neighbors(_adata, target_gene, keep_top_n=None):
+def get_neighbors(_adata, target_gene, gene_name_col = "Gene_name_canonical", keep_top_n=None):
     '''helper function to extract neighbors and their connectivity
     Input:
         adata: an anndata object that contains precomputed connectivities
@@ -15,7 +15,7 @@ def get_neighbors(_adata, target_gene, keep_top_n=None):
         Note that this dataframe may contain multiple rows if the target gene duplicated in the dataset (e.g. isoforms)
     '''
     connectivies = np.array(_adata.obsp["connectivities"].todense())
-    gene_names = _adata.obs["Gene_name_canonical"]
+    gene_names = _adata.obs[gene_name_col]
 
     # subset the connectivity matrix to only include the query gene
     bool_idx = gene_names == target_gene

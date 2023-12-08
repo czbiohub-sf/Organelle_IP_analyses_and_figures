@@ -98,9 +98,9 @@ def gene_neighbor_annots(gene_name="VPS11", adata=None, annot_df= None, gene_nam
     nei_list = []
 
     if top_n_neighbors is None:
-        neighbors_result = get_neighbors(adata, gene_name)
+        neighbors_result = get_neighbors(adata, gene_name, gene_name_col)
     else:
-        neighbors_result = get_neighbors(adata, gene_name, keep_top_n=top_n_neighbors)
+        neighbors_result = get_neighbors(adata, gene_name, gene_name_col, keep_top_n=top_n_neighbors)
 
     for nei in neighbors_result.columns:
         annot_list = annotate_gene(gene_name=nei, annot_df=annot_df, gene_name_col=gene_name_col, annot_col=annot_col)

@@ -1,4 +1,4 @@
-def clusterwise_connection(df_annot,nei_df, annot_col_name = "Graph-based_localization_annotation",
+def clusterwise_connection(df_annot,nei_df, annot_col_name = "Graph-based_localization_annotation", gene_name_col = "Gene_name_canonical",
                             cluster1_name = "early_endosome", cluster2_name="plasma_membrane", normalize_conn = False,
                             restrict_to_interfacial = False, interfacial_proteins = None):
     """ 
@@ -11,8 +11,8 @@ def clusterwise_connection(df_annot,nei_df, annot_col_name = "Graph-based_locali
     bool_idx1 = df_annot[annot_col_name] == cluster1_name
     bool_idx2 = df_annot[annot_col_name] == cluster2_name
 
-    c1_genes = df_annot[bool_idx1]["Gene_name_canonical"].tolist()
-    c2_genes = df_annot[bool_idx2]["Gene_name_canonical"].tolist()
+    c1_genes = df_annot[bool_idx1][gene_name_col].tolist()
+    c2_genes = df_annot[bool_idx2][gene_name_col].tolist()
 
     c1_to_c2_count = 0
     c2_to_c1_count = 0
@@ -25,7 +25,7 @@ def clusterwise_connection(df_annot,nei_df, annot_col_name = "Graph-based_locali
         if restrict_to_interfacial and g not in interfacial_proteins:
             continue
 
-        neighbors = get_neighbors_from_df(nei_df, g).iloc[0,2] # get the firs row, second column
+        neighbors = get_neighbors_from_df(nei_df, g, gene_name_col).iloc[0,2] # get the firs row, second column
         if isinstance(neighbors, str):
             neighbors = eval(neighbors) # convert string to dictionary
         
@@ -42,7 +42,7 @@ def clusterwise_connection(df_annot,nei_df, annot_col_name = "Graph-based_locali
         if restrict_to_interfacial and g not in interfacial_proteins:
             continue
 
-        neighbors = get_neighbors_from_df(nei_df, g).iloc[0,2] # get the firs row, second column
+        neighbors = get_neighbors_from_df(nei_df, g, gene_name_col).iloc[0,2] # get the firs row, second column
         if isinstance(neighbors, str):
             neighbors = eval(neighbors) # convert string to dictionary
         
@@ -54,7 +54,7 @@ def clusterwise_connection(df_annot,nei_df, annot_col_name = "Graph-based_locali
                     c2_to_c1_count += 1
     return c1_to_c2_count, c2_to_c1_count
 
-def get_neighbors_from_df(df, target_gene, keep_top_n=None):
-    bool_idx = df["Gene_names_canonical"] == target_gene
+def get_neighbors_from_df(df, target_gene, gene_name_col, keep_top_n=None):
+    bool_idx = df[gene_name_col] == target_gene
     df = df[bool_idx]
     return df
