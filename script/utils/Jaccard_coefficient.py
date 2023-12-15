@@ -1,22 +1,23 @@
-from collections import Counter
 import copy
 import sys
+from collections import Counter
 from pathlib import Path
+
 script_path = Path.cwd().parent.parent.parent / "script"
 sys.path.append(str(script_path))
 print(Path.cwd())
 from utils.knn import get_neighbors
 
 
-def Jaccard_Coeff_mod(mylist, label_total_counts, norm_degrees_to_def_top_partites = True, min_partite_deg = 3, verbose=True):
+def Jaccard_Coeff_mod(mylist, label_total_counts, norm_degrees_to_def_top_partites=True, min_partite_deg=3, verbose=True):
     '''compute modified Jaccard Coefficient.
     modifications:
     - use normalized degrees to define top partites ( norm = degrees / total number of labels)
     - minimum counts of labels for partite_2
       for a list, count the number of unique elements, and then take the top n counts, return the multiplication product of the top n counts
         the output is a candidate metric for measuring interfacialness
-   input:
-     mylist: list of labels (with duplicates)
+    input:
+      mylist: list of labels (with duplicates)
       verbose: print the sorted counts
     output: Jaccard_Coeff, connectivity of the top 2 labels, labels and label_total_counts of the top 2 labels, all labels counts
         
@@ -37,7 +38,7 @@ def Jaccard_Coeff_mod(mylist, label_total_counts, norm_degrees_to_def_top_partit
           key2 = list(sorted_counts_norm.keys())[1] # define partite 2 with normalized counts
           d1 = sorted_counts[key1]
           d2 = sorted_counts[key2]
-          J_coeff = (d1 + d2)/ (label_total_counts[key1] + label_total_counts[key2] - (d1 + d2))
+          J_coeff = (d1 + d2) / (label_total_counts[key1] + label_total_counts[key2] - (d1 + d2))
           return J_coeff, d1, d2, key1, key2, label_total_counts[key1], label_total_counts[key2], sorted_counts_prefilter
       
       else: # requested higher n than the number of unique annotations in the list
@@ -115,9 +116,9 @@ def gene_neighbor_annots(gene_name="VPS11", adata=None, annot_df= None, gene_nam
 if __name__ == "__main__":
     # test
     test_list = ['trans-Golgi', 'plasma_membrane', 'trans-Golgi',  'plasma_membrane', 'recycling_endosome', 'plasma_membrane', 'recycling_endosome',
-        'actin_cytoskeleton', 'plasma_membrane', 'plasma_membrane', 'lysosome', 'lysosome',  'plasma_membrane',  
-    'trans-Golgi',  'trans-Golgi', 'trans-Golgi', 'plasma_membrane', 'plasma_membrane', 'plasma_membrane', 'actin_cytoskeleton', 'early_endosome', 'lysosome', 
-    'early_endosome', 'plasma_membrane', 'cytosol']
+        'actin_cytoskeleton', 'plasma_membrane', 'plasma_membrane', 'lysosome', 'lysosome',  'plasma_membrane',
+        'trans-Golgi',  'trans-Golgi', 'trans-Golgi', 'plasma_membrane', 'plasma_membrane', 'plasma_membrane', 'actin_cytoskeleton', 'early_endosome', 'lysosome',
+        'early_endosome', 'plasma_membrane', 'cytosol']
     label_total_counts = {'nucleus': 1525,
                             'Golgi': 192,
                             'cytosol': 1800,
@@ -140,4 +141,4 @@ if __name__ == "__main__":
                             'ERGIC': 55,
                             'proteasome': 71,
                             'spindle': 69}
-    Jaccard_Coeff_mod(test_list, label_total_counts, verbose = True)
+    Jaccard_Coeff_mod(test_list, label_total_counts, verbose=True)

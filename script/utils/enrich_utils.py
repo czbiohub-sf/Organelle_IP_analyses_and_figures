@@ -1,6 +1,7 @@
-import requests
 import time
 import pandas as pd
+import requests
+
 
 def upload_foreground(gene_list):
     gene_list = [i.split(";")[0] for i in gene_list] # enrichr gene lists can't have ";" in them
@@ -11,8 +12,9 @@ def upload_foreground(gene_list):
     res = requests.post(
         base_url+'/api/addList',
         files=dict(
-        list=(None, '\n'.join(gene_list)),
-        description=(None, description),)
+            list=(None, '\n'.join(gene_list)),
+            description=(None, description),
+        )
     )
     if res.ok:
         response = res.json()
@@ -32,9 +34,9 @@ def enrichment_analysis(bg, fg, library):
     res = requests.post(
         base_url+'/api/backgroundenrich',
         data=dict(
-        userListId = fg['userListId'],
-        backgroundid = bg['backgroundid'],
-        backgroundType = f"{library}",
+            userListId = fg['userListId'],
+            backgroundid = bg['backgroundid'],
+            backgroundType = f"{library}",
         )
     )
     if res.ok:
@@ -50,7 +52,7 @@ def enrichment_analysis(bg, fg, library):
         return None
     
     
-def run_enrichr(cluster_col, df, background_response, verbose = True):
+def run_enrichr(cluster_col, df, background_response, verbose=True):
     '''
     cluster_col: column name of the cluster labels
     df: dataframe with two columns: Gene_name_canonical and cluster_col
@@ -70,10 +72,10 @@ def run_enrichr(cluster_col, df, background_response, verbose = True):
     print(f"Performing enrichment analysis for:") if verbose else None
 
     for clu in clusters:
-        print(f"- {clu}", end = "", flush=True) if verbose else None
+        print(f"- {clu}", end="", flush=True) if verbose else None
         # get gene symbols
         genes = df[df[cluster_col] == clu]['Gene_name_canonical'].values
-        print(f" ({len(genes)} genes) ... ", end = "", flush=True) if verbose else None
+        print(f" ({len(genes)} genes) ... ", end="", flush=True) if verbose else None
         
         # upload foreground
         foreground_response = upload_foreground(genes)
