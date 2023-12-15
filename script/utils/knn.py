@@ -14,12 +14,11 @@ def get_neighbors(_adata, target_gene, gene_name_col = "Gene_name_canonical", ke
         a dataframe that contains the connectivities of the target gene to its neighbors
         Note that this dataframe may contain multiple rows if the target gene duplicated in the dataset (e.g. isoforms)
     '''
-    connectivies = np.array(_adata.obsp["connectivities"].todense())
+    connectivity_arr = _adata.obsp["connectivities"].toarray()
     gene_names = _adata.obs[gene_name_col]
 
     # subset the connectivity matrix to only include the query gene
     bool_idx = gene_names == target_gene
-    connectivity_arr = np.array(connectivies)
     gene_arr = connectivity_arr[bool_idx, :]
 
     # get the gene names of the neighbors
@@ -30,7 +29,7 @@ def get_neighbors(_adata, target_gene, gene_name_col = "Gene_name_canonical", ke
     # subset the connectivity matrix to only include the neighbors of the query gene
     gene_arr = gene_arr[:,~(gene_arr == 0).all(axis=0) ]
 
-    df = pd.DataFrame(gene_arr, columns=neighbors, index =[target_gene]*gene_arr.shape[0])
+    df = pd.DataFrame(gene_arr, columns=neighbors, index=[target_gene]*gene_arr.shape[0])
 
     #collapse isoforms
     df = pd.DataFrame(df.max()).T
