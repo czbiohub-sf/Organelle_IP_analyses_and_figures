@@ -48,7 +48,7 @@ def Jaccard_Coeff_mod(mylist, label_total_counts, norm_degrees_to_def_top_partit
           else:
             return 0, "NA", "NA", "NA", "NA", "NA", "NA", sorted_counts_prefilter
 
-    else: # use raw counts
+    else: # use raw counts to define top partites
       if len(sorted_counts) >= 2:
           key1 = list(sorted_counts.keys())[0]
           key2 = list(sorted_counts.keys())[1]
