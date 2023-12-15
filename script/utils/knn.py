@@ -1,11 +1,12 @@
+from collections import Counter
+import matplotlib.colors as mcolors
+import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
 import plotly.graph_objects as go
-from collections import Counter
-import matplotlib.pyplot as plt
-import matplotlib.colors as mcolors
 
-def get_neighbors(_adata, target_gene, gene_name_col = "Gene_name_canonical", keep_top_n=None):
+
+def get_neighbors(_adata, target_gene, gene_name_col="Gene_name_canonical", keep_top_n=None):
     '''helper function to extract neighbors and their connectivity
     Input:
         adata: an anndata object that contains precomputed connectivities
@@ -27,7 +28,7 @@ def get_neighbors(_adata, target_gene, gene_name_col = "Gene_name_canonical", ke
     neighbors = gene_names.iloc[indices]
 
     # subset the connectivity matrix to only include the neighbors of the query gene
-    gene_arr = gene_arr[:,~(gene_arr == 0).all(axis=0) ]
+    gene_arr = gene_arr[:,~(gene_arr == 0).all(axis=0)]
 
     df = pd.DataFrame(gene_arr, columns=neighbors, index=[target_gene]*gene_arr.shape[0])
 
@@ -37,7 +38,6 @@ def get_neighbors(_adata, target_gene, gene_name_col = "Gene_name_canonical", ke
 
     #eliminate self-connections (caused by isoforms)
     df = df.loc[:,~df.columns.isin(df.index)]
-
 
     if keep_top_n is not None:
         df = df.T.sort_values(by=target_gene, ascending=False).head(keep_top_n).T
@@ -52,15 +52,14 @@ def get_neighbors_of_neighbors(_adata, _neighbors, keep_top_n=None):
     Output:
         a dataframe that contains the connectivities of the target gene to its neighbors
     '''
-    connectivies = np.array(_adata.obsp["connectivities"].todense())
+    connectivity_arr = _adata.obsp["connectivities"].toarray()
     gene_names = _adata.obs["Gene_name_canonical"]
 
-    result = {} # setup the output variable
+    result = {} # set up the output variable
 
     for target_gene in _neighbors:
         # subset the connectivity matrix to only include the query gene
         bool_idx = gene_names == target_gene
-        connectivity_arr = np.array(connectivies)
         gene_arr = connectivity_arr[bool_idx, :]
 
         # get the gene names of the neighbors
@@ -69,11 +68,11 @@ def get_neighbors_of_neighbors(_adata, _neighbors, keep_top_n=None):
         _neighbors = gene_names.iloc[indices]
 
         # subset the connectivity matrix to only include the neighbors of the query gene
-        gene_arr = gene_arr[:,~(gene_arr == 0).all(axis=0) ]
+        gene_arr = gene_arr[:,~(gene_arr == 0).all(axis=0)]
 
-        df = pd.DataFrame(gene_arr, columns=_neighbors, index =[target_gene]*gene_arr.shape[0])
+        df = pd.DataFrame(gene_arr, columns=_neighbors, index=[target_gene]*gene_arr.shape[0])
 
-        #collapse isoforms
+        # collapse isoforms
         df = pd.DataFrame(df.max()).T
         df.index = [target_gene]
 
@@ -151,9 +150,9 @@ def prune_single_connection_nodes(result_dict, keep_1st_order_neighbors=True, ne
         g1 = list(key)[0]
         g2 = list(key)[1]
 
-        if gene_edge_count[g1] > 1 and gene_edge_count[g2] > 1: #  keep the edge if both nodes have more than one connection,
+        if gene_edge_count[g1] > 1 and gene_edge_count[g2] > 1:  #  keep the edge if both nodes have more than one connection,
             pruned_dict[frozenset([g1, g2])] = value
-        elif g1 in allow_list and g2 in allow_list: # keep edges that are connecting query to first order neighbors
+        elif g1 in allow_list and g2 in allow_list:  # keep edges that are connecting query to first order neighbors
             pruned_dict[frozenset([g1, g2])] = value
             
     return pruned_dict

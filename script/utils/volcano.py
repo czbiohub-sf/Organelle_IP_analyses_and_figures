@@ -2,15 +2,16 @@ import re
 import pandas as pd
 from utils.label_processing import attach_annotations
 
+
 def custom_sort(item):
-    try :
+    try:
          return (item.endswith("[p]"), item)
     except AttributeError:
         print(item)
    
 
 def load_volcano_data(csv_path, label_path):
-    volcano_df = pd.read_csv(csv_path, header=[0,1], index_col=0)
+    volcano_df = pd.read_csv(csv_path, header=[0, 1], index_col=0)
 
     # append annotations
     # attach canonical gene names
@@ -19,7 +20,7 @@ def load_volcano_data(csv_path, label_path):
     to_df = volcano_df["metadata"].copy()
     list_of_cols_to_add = reversed(["Gene_name_canonical", "consensus_graph_annnotation"])
     for c in list_of_cols_to_add:
-        new_col_data = attach_annotations(from_df=lookup_table, to_df=to_df, anno_col=c , from_on="Majority protein IDs", to_on="Majority protein IDs")
+        new_col_data = attach_annotations(from_df=lookup_table, to_df=to_df, anno_col=c, from_on="Majority protein IDs", to_on="Majority protein IDs")
         volcano_df[("metadata", c)] = new_col_data
 
     pulldowns = []
@@ -96,7 +97,7 @@ def load_volcano_data(csv_path, label_path):
                 volcano_df.drop(col, axis=1, inplace=True)
 
     # rename the columns (adding the compartment name)
-    volcano_df.rename(columns=name_mapping, level = 0, inplace=True)
+    volcano_df.rename(columns=name_mapping, level=0, inplace=True)
     
     # remove experiment number from the column names
     volcano_df.columns = pd.MultiIndex.from_tuples([(re.sub(r'^\d+-', '', col[0]), col[1]) for col in volcano_df.columns])
