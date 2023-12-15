@@ -42,6 +42,7 @@ It is important to execute the notebooks sequentially, following the top-to-bott
 ```
 notebooks
 |
+├── 0.Set_timestamp.ipynb
 ├── enrichment
 |   ├── 1.QC_filter_and_impute.ipynb
 |   ├── 2.Batch_selection.ipynb
@@ -85,6 +86,7 @@ notebooks
 │   └── panel_D
 │       └── Please_read.txt
 ├── Fig5
+|   ├── 0.Set_fig5_timestamp.ipynb
 │   ├── panel_A
 │   │   ├── 1.infected_enrichment
 |   |   |   ├── 1.QC_filter_and_impute.ipynb

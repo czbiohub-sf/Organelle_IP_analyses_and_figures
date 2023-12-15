@@ -1,6 +1,26 @@
 data/MaxQuant/proteinGroups_2023-02-08_big_quant.txt
-output/
 notebooks/Fig3/panels_C_D/compare_Jaccard.ipynb
+
+output/
+
+!**notebooks/enrichment/output/enrichment_and_volcano_tables/
+!**notebooks/enrichment/output/
+notebooks/enrichment/output/correlation_tables
+notebooks/enrichment/output/preprocessing
+!**notebooks/enrichment/output/enrichment_and_volcano_tables/2023-10-21-imp5-for-figures_enrichment_table_NOC_prop.csv
+!**notebooks/enrichment/output/enrichment_and_volcano_tables/2023-10-21-imp5-for-figures_volcano_table.csv
+
+!**notebooks/Fig5/panel_A/1.infected_enrichment/output/
+!**notebooks/Fig5/panel_A/1.infected_enrichment/output/enrichment_and_volcano_tables/
+notebooks/Fig5/panel_A/1.infected_enrichment/output/correlation_tables/
+notebooks/Fig5/panel_A/1.infected_enrichment/output/preprocessing/
+!**notebooks/Fig5/panel_A/1.infected_enrichment/output/enrichment_and_volcano_tables/2023-10-21-for-figures_inf_enrichment_table_NOC_prop.csv
+
+!**notebooks/Fig5/panel_A/2.control_enrichment/output/
+!**notebooks/Fig5/panel_A/2.control_enrichment/output/enrichment_and_volcano_tables/
+notebooks/Fig5/panel_A/2.control_enrichment/output/correlation_tables/
+notebooks/Fig5/panel_A/2.control_enrichment/output/preprocessing/
+!**notebooks/Fig5/panel_A/2.control_enrichment/output/enrichment_and_volcano_tables/2023-10-21-for-figures_uninf_enrichment_table_NOC_prop.csv
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
