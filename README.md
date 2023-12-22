@@ -1,6 +1,6 @@
 # Global organelle profiling defines a sub-cellular map of the human proteome
 
-This repository serves as a comprehensive resource for exploring and understanding our manuscript, "Global Organelle Profiling Defines a Sub-Cellular Map of the Human Proteome". Inside, you'll find detailed Jupyter notebooks and scripts that were pivotal in our data analysis process and in generating the figures.
+This repository serves as a comprehensive resource for exploring and understanding our manuscript, [Global Organelle Profiling Defines a Sub-Cellular Map of the Human Proteome](https://www.biorxiv.org/content/10.1101/2023.12.18.572249v1). Inside, you'll find detailed Jupyter notebooks and scripts that were pivotal in our data analysis process and in generating the figures.
 
 Our aim is to provide an in-depth, transparent view into our research methods and findings. Dive into our notebooks to see how we transformed raw data into meaningful insights, or explore our scripts to understand the technical underpinnings of our figure generation. We hope this repository will be a useful tool in your own research and learning journey.
 
@@ -133,16 +133,17 @@ notebooks
     │   └── output
     |       └── ..
     ├── Suppl_fig3
-    |   ├── panel_B
-    |   |   ├── Suppl_fig3_B_IP_correlation_vs_interaction_stoi.ipynb
+    |   ├── panel_A
+    |   |   ├── Suppl_fig3_A_IP_correlation_vs_interaction_stoi.ipynb
     |   |   └── output
     |   |       └── ..
-    |   ├── panel_C
-    |   |   ├── Suppl_fig3_C_tenary_plots.ipynb
-    |   |   └── output
-    |   |       └── ..
-    |   └── panel_E
-    |       ├── Suppl_fig3_E_XGBoost_classifier.ipynb
+    |   └── panel_B
+    |       ├── Suppl_fig3_B_tenary_plots.ipynb
+    |       └── output
+    |           └── ..
+    ├── Suppl_fig4
+    |   └── panel_B
+    |       ├── Suppl_fig4_B_XGBoost_classifier.ipynb
     |       └── output
     |           └── ..
 ```
