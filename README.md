@@ -7,7 +7,7 @@ Our aim is to provide an in-depth, transparent view into our research methods an
 ## Usage
 ### Set up code, data and environment
 ```sh
-git clone https://github.com/czbiohub-sf/Organelle_IP_analyses_and_figures.git --depth=1
+git clone https://github.com/czbiohub-sf/Organelle_IP_analyses_and_figures.git
 cd Organelle_IP_analyses_and_figures
 ```
 
@@ -23,7 +23,7 @@ If reproducing figures from frozen imputed tables, skip the `enrichment` noteboo
 ### Supplementary figure 4 panel E
 Supplementary figure 4 panel E uses a separate conda environment specification.
 ```sh
-conda env create -n xgb2 -f notebooks/Supplementary_figures/Suppl_fig3/panel_E/environment.yml
+conda env create -n xgb2 -f notebooks/Supplementary_figures/Suppl_fig4/panel_B/environment.yml
 conda activate xgb2
 ```
 
