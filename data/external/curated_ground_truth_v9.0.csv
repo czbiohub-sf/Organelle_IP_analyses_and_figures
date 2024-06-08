@@ -1,6 +1,7 @@
-gene_name_canonical,organelle,source,Note
+gene_name_canonical,compartment,source,Note
 ACTN1,actin-binding_protein,Itzhak et al 2016 PMID: 27278775,confidence score: high
 ACTN4,actin-binding_protein,Itzhak et al 2016 PMID: 27278775,confidence score: high
+COBL,actin-binding_protein,Itzhak et al 2016 PMID: 27278775,confidence score: very high
 CORO1B,actin-binding_protein,Itzhak et al 2016 PMID: 27278775,confidence score: high
 CORO2A,actin-binding_protein,Itzhak et al 2016 PMID: 27278775,confidence score: high
 CSRP2,actin-binding_protein,Itzhak et al 2016 PMID: 27278775,confidence score: high
@@ -9,11 +10,18 @@ DBNL,actin-binding_protein,Itzhak et al 2016 PMID: 27278775,confidence score: hi
 FLNB,actin-binding_protein,Itzhak et al 2016 PMID: 27278775,confidence score: high
 GOLGA3,actin-binding_protein,Itzhak et al 2016 PMID: 27278775,confidence score: high
 LIMCH1,actin-binding_protein,Itzhak et al 2016 PMID: 27278775,confidence score: high
+LMO7,actin-binding_protein,Itzhak et al 2016 PMID: 27278775,confidence score: very high
 LRRFIP2,actin-binding_protein,Itzhak et al 2016 PMID: 27278775,confidence score: high
 MPDZ,actin-binding_protein,Itzhak et al 2016 PMID: 27278775,confidence score: high
+MYH9,actin-binding_protein,Itzhak et al 2016 PMID: 27278775,confidence score: very high
+MYL12B,actin-binding_protein,Itzhak et al 2016 PMID: 27278775,confidence score: very high
 MYL6,actin-binding_protein,Itzhak et al 2016 PMID: 27278775,confidence score: high
 MYL6B,actin-binding_protein,Itzhak et al 2016 PMID: 27278775,confidence score: high
+MYO18A,actin-binding_protein,Itzhak et al 2016 PMID: 27278775,confidence score: very high
+PDLIM1,actin-binding_protein,Itzhak et al 2016 PMID: 27278775,confidence score: very high
 PDLIM7,actin-binding_protein,Itzhak et al 2016 PMID: 27278775,confidence score: high
+PPP1R12A,actin-binding_protein,Itzhak et al 2016 PMID: 27278775,confidence score: very high
+PPP1R18,actin-binding_protein,Itzhak et al 2016 PMID: 27278775,confidence score: very high
 SH3BGRL3,actin-binding_protein,Itzhak et al 2016 PMID: 27278775,confidence score: high
 SIPA1,actin-binding_protein,Itzhak et al 2016 PMID: 27278775,confidence score: high
 SPTAN1,actin-binding_protein,Itzhak et al 2016 PMID: 27278775,confidence score: high
@@ -22,29 +30,23 @@ SVIL,actin-binding_protein,Itzhak et al 2016 PMID: 27278775,confidence score: hi
 TJP1,actin-binding_protein,Itzhak et al 2016 PMID: 27278775,confidence score: high
 TJP2,actin-binding_protein,Itzhak et al 2016 PMID: 27278775,confidence score: high
 ZYX,actin-binding_protein,Itzhak et al 2016 PMID: 27278775,confidence score: high
-COBL,actin-binding_protein,Itzhak et al 2016 PMID: 27278775,confidence score: very high
-LMO7,actin-binding_protein,Itzhak et al 2016 PMID: 27278775,confidence score: very high
-MYH9,actin-binding_protein,Itzhak et al 2016 PMID: 27278775,confidence score: very high
-MYL12B,actin-binding_protein,Itzhak et al 2016 PMID: 27278775,confidence score: very high
-MYO18A,actin-binding_protein,Itzhak et al 2016 PMID: 27278775,confidence score: very high
-PDLIM1,actin-binding_protein,Itzhak et al 2016 PMID: 27278775,confidence score: very high
-PPP1R12A,actin-binding_protein,Itzhak et al 2016 PMID: 27278775,confidence score: very high
-PPP1R18,actin-binding_protein,Itzhak et al 2016 PMID: 27278775,confidence score: very high
 ALMS1,centrosome,Bauer et al 2016 PMID: 27539480,combined proteomics and fluorescence microscopy
-CEP131,centrosome,Bauer et al 2016 PMID: 27539480,combined proteomics and fluorescence microscopy
 C2CD3,centrosome,Bauer et al 2016 PMID: 27539480,combined proteomics and fluorescence microscopy
-SDCCAG8,centrosome,Bauer et al 2016 PMID: 27539480,combined proteomics and fluorescence microscopy
 CCDC15,centrosome,Bauer et al 2016 PMID: 27539480,combined proteomics and fluorescence microscopy
 CCDC61,centrosome,Bauer et al 2016 PMID: 27539480,combined proteomics and fluorescence microscopy
 CCDC77,centrosome,Bauer et al 2016 PMID: 27539480,combined proteomics and fluorescence microscopy
+CCP110,centrosome,Bauer et al 2016 PMID: 27539480,combined proteomics and fluorescence microscopy
 CDK5RAP2,centrosome,Bauer et al 2016 PMID: 27539480,combined proteomics and fluorescence microscopy
+CENPJ,centrosome,Bauer et al 2016 PMID: 27539480,combined proteomics and fluorescence microscopy
 CEP120,centrosome,Bauer et al 2016 PMID: 27539480,combined proteomics and fluorescence microscopy
 CEP128,centrosome,Bauer et al 2016 PMID: 27539480,combined proteomics and fluorescence microscopy
+CEP131,centrosome,Bauer et al 2016 PMID: 27539480,combined proteomics and fluorescence microscopy
 CEP135,centrosome,Bauer et al 2016 PMID: 27539480,combined proteomics and fluorescence microscopy
 CEP152,centrosome,Bauer et al 2016 PMID: 27539480,combined proteomics and fluorescence microscopy
 CEP164,centrosome,Bauer et al 2016 PMID: 27539480,combined proteomics and fluorescence microscopy
 CEP170,centrosome,Bauer et al 2016 PMID: 27539480,combined proteomics and fluorescence microscopy
 CEP192,centrosome,Bauer et al 2016 PMID: 27539480,combined proteomics and fluorescence microscopy
+CEP20,centrosome,Bauer et al 2016 PMID: 27539480,combined proteomics and fluorescence microscopy
 CEP250,centrosome,Bauer et al 2016 PMID: 27539480,combined proteomics and fluorescence microscopy
 CEP290,centrosome,Bauer et al 2016 PMID: 27539480,combined proteomics and fluorescence microscopy
 CEP295,centrosome,Bauer et al 2016 PMID: 27539480,combined proteomics and fluorescence microscopy
@@ -66,18 +68,12 @@ CETN2,centrosome,Bauer et al 2016 PMID: 27539480,combined proteomics and fluores
 CETN3,centrosome,Bauer et al 2016 PMID: 27539480,combined proteomics and fluorescence microscopy
 CNTRL,centrosome,Bauer et al 2016 PMID: 27539480,combined proteomics and fluorescence microscopy
 CNTROB,centrosome,Bauer et al 2016 PMID: 27539480,combined proteomics and fluorescence microscopy
-CCP110,centrosome,Bauer et al 2016 PMID: 27539480,combined proteomics and fluorescence microscopy
-CENPJ,centrosome,Bauer et al 2016 PMID: 27539480,combined proteomics and fluorescence microscopy
 CROCC,centrosome,Bauer et al 2016 PMID: 27539480,combined proteomics and fluorescence microscopy
 CSPP1,centrosome,Bauer et al 2016 PMID: 27539480,combined proteomics and fluorescence microscopy
-FAM161A,centrosome,Bauer et al 2016 PMID: 27539480,combined proteomics and fluorescence microscopy
-CEP20,centrosome,Bauer et al 2016 PMID: 27539480,combined proteomics and fluorescence microscopy
 CXCL6,centrosome,Bauer et al 2016 PMID: 27539480,combined proteomics and fluorescence microscopy
-TUBGCP3,centrosome,Bauer et al 2016 PMID: 27539480,combined proteomics and fluorescence microscopy
-TUBGCP4,centrosome,Bauer et al 2016 PMID: 27539480,combined proteomics and fluorescence microscopy
-TUBGCP5,centrosome,Bauer et al 2016 PMID: 27539480,combined proteomics and fluorescence microscopy
-TUBGCP6,centrosome,Bauer et al 2016 PMID: 27539480,combined proteomics and fluorescence microscopy
+FAM161A,centrosome,Bauer et al 2016 PMID: 27539480,combined proteomics and fluorescence microscopy
 HYLS1,centrosome,Bauer et al 2016 PMID: 27539480,combined proteomics and fluorescence microscopy
+KIAA0586,centrosome,Bauer et al 2016 PMID: 27539480,combined proteomics and fluorescence microscopy
 LRRC45,centrosome,Bauer et al 2016 PMID: 27539480,combined proteomics and fluorescence microscopy
 MZT1,centrosome,Bauer et al 2016 PMID: 27539480,combined proteomics and fluorescence microscopy
 MZT2B,centrosome,Bauer et al 2016 PMID: 27539480,combined proteomics and fluorescence microscopy
@@ -96,15 +92,470 @@ POC5,centrosome,Bauer et al 2016 PMID: 27539480,combined proteomics and fluoresc
 RTTN,centrosome,Bauer et al 2016 PMID: 27539480,combined proteomics and fluorescence microscopy
 SASS6,centrosome,Bauer et al 2016 PMID: 27539480,combined proteomics and fluorescence microscopy
 SCLT1,centrosome,Bauer et al 2016 PMID: 27539480,combined proteomics and fluorescence microscopy
+SDCCAG8,centrosome,Bauer et al 2016 PMID: 27539480,combined proteomics and fluorescence microscopy
 SFI1,centrosome,Bauer et al 2016 PMID: 27539480,combined proteomics and fluorescence microscopy
 SPICE1,centrosome,Bauer et al 2016 PMID: 27539480,combined proteomics and fluorescence microscopy
 SSNA1,centrosome,Bauer et al 2016 PMID: 27539480,combined proteomics and fluorescence microscopy
 STIL,centrosome,Bauer et al 2016 PMID: 27539480,combined proteomics and fluorescence microscopy
-KIAA0586,centrosome,Bauer et al 2016 PMID: 27539480,combined proteomics and fluorescence microscopy
-TUBG1,centrosome,Bauer et al 2016 PMID: 27539480,combined proteomics and fluorescence microscopy
 TBC1D31,centrosome,Bauer et al 2016 PMID: 27539480,combined proteomics and fluorescence microscopy
+TUBG1,centrosome,Bauer et al 2016 PMID: 27539480,combined proteomics and fluorescence microscopy
+TUBGCP3,centrosome,Bauer et al 2016 PMID: 27539480,combined proteomics and fluorescence microscopy
+TUBGCP4,centrosome,Bauer et al 2016 PMID: 27539480,combined proteomics and fluorescence microscopy
+TUBGCP5,centrosome,Bauer et al 2016 PMID: 27539480,combined proteomics and fluorescence microscopy
+TUBGCP6,centrosome,Bauer et al 2016 PMID: 27539480,combined proteomics and fluorescence microscopy
+AAGAB,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+AASDH,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+AATK,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+ACOT11,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+ACP1,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+ACSS2,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+ACTMAP,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+ADAT2,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+ADAT3,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+AFMID,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+AGGF1,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+AHR,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+AKIRIN2,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+AKR1B15,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+AKTIP,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+ALAD,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+ALDH3A1,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+ALKBH8,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+AMBRA1,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+AMDHD2,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+ANKRD10,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+ANKRD2,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+ANKRD39,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+ANKRD49,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+APPBP2,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+ARHGAP27,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+ARHGAP4,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+ARHGEF35,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+ARL6,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+ARR3,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+ASAP3,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+ASB1,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+ASB13,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+ASB6,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+ASB9,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+ASNSD1,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+ASPSCR1,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+ASRGL1,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+ATE1,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+ATG2B,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+ATG4A,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+ATG4C,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+ATXN3,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+AZI2,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+AZIN1,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+BBLN,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+BCCIP,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+BIRC2,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+BORA,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+BPGM,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+BRAF,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+C11orf54,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+C14orf119,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+C19orf12,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+C1orf50,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+C8orf76,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+CALCOCO1,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+CAMKK2,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+CAMKMT,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+CARS1,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+CASP1,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+CASP4,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+CCDC117,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+CCDC32,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+CCDC91,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+CCND1,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+CCNDBP1,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+CDC25B,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+CDC37L1,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+CFAP418,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+CHAC1,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+CHKB,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+CHM,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+CHUK,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+CIAO3,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+COL9A3,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+CPTP,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+CRADD,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+CRTC1,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+CRYAB,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+CSAD,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+CSTPP1,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+CTNNBIP1,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+CUEDC1,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+CUL7,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+DALRD3,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+DAZAP2,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+DCAF11,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+DCAF15,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+DCK,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+DCTD,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+DENND10,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+DFFA,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+DFFB,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+DGKZ,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+DHX58,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+DMXL2,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+DNAJC12,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+DNAJC21,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+DNAL1,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+DOK1,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+DOP1B,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+DPH3,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+DPH7,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+DPP8,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+DTWD2,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+DUSP19,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+DUSP9,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+EEF1AKMT2,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+EEF1AKMT4-ECE2,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+EEF2K,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+EEF2KMT,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+ELAC1,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+ENO2,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+ENOPH1,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+ENOSF1,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+EPB41L3,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+EPM2AIP1,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+ERCC8,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+ERRFI1,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+F8A1;,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+FABP3,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+FAM110B,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+FAM118A,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+FAM118B,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+FBXL15,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+FBXL16,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+FBXL17,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+FBXL3,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+FBXL8,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+FBXO3,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+FBXO4,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+FBXO46,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+FBXW5,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+FCSK,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+FEZ2,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+FHIP2B,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+FHL1,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+FNIP1,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+FNTB,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+FRYL,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+GAB1,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+GAB2,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+GALM,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+GALT,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+GANC,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+GBF1,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+GCA,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+GDPGP1,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+GGPS1,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+GLUL,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+GMPPB,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+GNB5,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+GNPDA2,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+GON7,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+GPATCH2,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+GPATCH2L,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+GPCPD1,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+GPD1,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+GPHN,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+GPN2,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+GPSM2,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+GSKIP,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+GSTCD,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+GSTM4,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+GSTT2B,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+GTF3A,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+HAGHL,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+HAPSTR1,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+HDAC8,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+HDDC3,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+HDGF,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+HEBP2,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+HELB,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+HENMT1,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+HIF1AN,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+HLCS,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+HNMT,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+HPS4,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+HSPB7,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+HSPBAP1,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+HTT,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+HYI,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+HYKK,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+IAH1,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+IFIH1,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+INPP1,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+IP6K1,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+IPO13,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+IPP,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+IRF3,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+IRGQ,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+ITPKC,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+IVNS1ABP,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+JMJD4,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+KBTBD2,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+KBTBD4,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+KCTD12,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+KCTD21,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+KCTD7,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+KCTD9,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+KDM8,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+KHK,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+KIF3A,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+KIFAP3,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+KLHDC2,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+KLHL11,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+KLHL21,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+KLHL42,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+KLHL5,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+KPTN,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+L3HYPDH,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+LACC1,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+LGALSL,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+LIMK1,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+LNX2,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+LPIN2,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+LRRC14,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+LRRC20,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+MAF1,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+MAGEA12,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+MAMLD1,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+MAP2K5,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+MAP3K21,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+MAPK11,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+MAPK8,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+MAPK8IP3,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+MAPK9,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+MAPKAPK3,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+MASTL,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+MAT2B,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+MB,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+MCMBP,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+MDM4,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+METTL1,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+METTL21A,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+METTL25,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+METTL25B,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+MGLL,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+MINDY3,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+MKNK2,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+MOB2,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+MOCS3,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+MT1X,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+MTHFR,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+MTMR14,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+MTR,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+MYO9A,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+N4BP1,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+N6AMT1,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+NAA80,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+NADSYN1,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+NANP,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+NAP1L1,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+NASP,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+NAT9,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+NDOR1,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+NEDD4L,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+NEK3,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+NFKBIA,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+NKIRAS1,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+NMRK1,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+NRBP2,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+NRGN,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+NT5C3B,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+NTAN1,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+NTAQ1,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+NUDT15,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+ODC1,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+OPLAH,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+OPTN,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+OTUD5,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+PABIR1,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+PABIR2,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+PAGE1,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+PAK1,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+PANK1,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+PANK3,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+PARP10,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+PASK,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+PCMTD1,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+PCTP,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+PDE1A,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+PDE4A,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+PFKFB4,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+PFN2,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+PGBD1,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+PGGT1B,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+PGM2L1,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+PHKA2,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+PHYHD1,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+PJA2,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+PKM,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+PLCB2,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+PLCG1,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+PLEKHG2,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+PLEKHO2,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+POLR2M,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+POLR3G,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+POMP,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+PPCDC,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+PPIP5K1,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+PPM1B,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+PPP2R2D,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+PPP2R3A,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+PPP2R3B,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+PREX1,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+PRKAB2,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+PRKCE,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+PRKCZ,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+PRMT1,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+PRPF39,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+PRTFDC1,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+PTAR1,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+PTER,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+PTGR2,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+PTK2B,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+PUS3,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+RAB28,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+RABGGTA,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+RABL2B,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+RABL6,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+RAP1GDS1,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+RAPGEF2,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+RASSF5,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+RBKS,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+RCCD1,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+RCHY1,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+RIC1,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+RIMKLB,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+RNF115,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+RNF123,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+RNF135,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+RNF141,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+RNF146,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+RNF187,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+RNF34,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+RPAP1,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+RPGR,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+RPP21,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+RPUSD1,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+RTL10,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+RWDD2A,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+S100A1,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+S100A3,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+SAAL1,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+SAT2,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+SCLY,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+SCRN3,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+SDSL,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+SEC14L2,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+SEC14L4,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+SERGEF,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+SERPINB8,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+SESN2,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+SESN3,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+SESTD1,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+SETD6,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+SH2B1,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+SHPK,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+SHROOM1,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+SIAH2,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+SIK3,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+SIVA1,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+SLC49A3,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+SLC7A6OS,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+SMYD4,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+SPATA18,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+SPHK1,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+SPIRE2,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+SRR,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+SSH3,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+STARD4,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+STARD5,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+STK17A,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+STK17B,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+STYX,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+SULT1A1,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+TAGLN,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+TBC1D13,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+TBC1D17,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+TBC1D7,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+TBCEL,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+TBPL1,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+TCP11L1,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+TECPR1,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+TFEB,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+TGM2,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+THADA,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+THUMPD2,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+TICAM1,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+TIFA,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+TLE4,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+TOM1L2,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+TP53I3,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+TPGS2,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+TPK1,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+TPM1,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+TPM4,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+TRAF3IP2,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+TRIM37,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+TRIM38,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+TRMT12,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+TSC1,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+TSC22D2,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+TSC22D3,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+TTL,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+TUBAL3,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+TYW5,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+UAP1L1,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+UBALD2,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+UBAP1,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+UBE2B,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+UBE2F,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+UBE3D,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+UBR7,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+UBXN2B,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+UCK1,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+UEVLD,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+UROS,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+USP25,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+USP34,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+USP37,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+USP38,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+USP40,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+UVSSA,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+VCPKMT,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+VHL,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+WDCP,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+WDR47,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+WDR54,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+WDR73,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+WDSUB1,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+WDTC1,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+WSB1,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+WWC1,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+XIAP,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+XRCC2,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+XYLB,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+YAE1,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+YOD1,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+ZBTB8OS,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+ZER1,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+ZFTRAF1,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+ZMIZ1,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+ZNF503,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+ZNF507,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+ZNF595,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+ZNF672,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+ZNF703,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+ZNG1B,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
+ZWILCH,cytosol,100% cytosolic in Itzhak et al 2016 PMID: 27278775,
 CHMP4B,early_endosome,Gosney et al 2018 PMID: 29523688,proteomics
-CTSZ,early_endosome,Gosney et al 2018 PMID: 29523688,proteomics
 DNAJC13,early_endosome,Gosney et al 2018 PMID: 29523688,proteomics
 EEA1,early_endosome,Gosney et al 2018 PMID: 29523688,proteomics
 MYOF,early_endosome,Gosney et al 2018 PMID: 29523688,proteomics
@@ -119,177 +570,64 @@ STX7,early_endosome,Gosney et al 2018 PMID: 29523688,proteomics
 TBC1D5,early_endosome,Gosney et al 2018 PMID: 29523688,proteomics
 VPS26A,early_endosome,Gosney et al 2018 PMID: 29523688,proteomics
 VPS35,early_endosome,Gosney et al 2018 PMID: 29523688,proteomics
-AGPAT2,ER,Itzhak et al 2016 PMID: 27278775,confidence score: high
-ALG1,ER,Itzhak et al 2016 PMID: 27278775,confidence score: high
-ALG8,ER,Itzhak et al 2016 PMID: 27278775,confidence score: high
-ALG9,ER,Itzhak et al 2016 PMID: 27278775,confidence score: high
-AMFR,ER,Itzhak et al 2016 PMID: 27278775,confidence score: high
-ATP13A1,ER,Itzhak et al 2016 PMID: 27278775,confidence score: high
-ATP6AP2,ER,Itzhak et al 2016 PMID: 27278775,confidence score: high
-BLTP2,ER,Itzhak et al 2016 PMID: 27278775,confidence score: high
-BTD,ER,Itzhak et al 2016 PMID: 27278775,confidence score: high
-CALR,ER,Itzhak et al 2016 PMID: 27278775,confidence score: high
-CCDC47,ER,Itzhak et al 2016 PMID: 27278775,confidence score: high
-CDIPT,ER,Itzhak et al 2016 PMID: 27278775,confidence score: high
-CDK5RAP3,ER,Itzhak et al 2016 PMID: 27278775,confidence score: high
-CERS5,ER,Itzhak et al 2016 PMID: 27278775,confidence score: high
-CHP1,ER,Itzhak et al 2016 PMID: 27278775,confidence score: high
-CNPY2,ER,Itzhak et al 2016 PMID: 27278775,confidence score: high
-CNPY4,ER,Itzhak et al 2016 PMID: 27278775,confidence score: high
-CRELD1,ER,Itzhak et al 2016 PMID: 27278775,confidence score: high
-CRLF1,ER,Itzhak et al 2016 PMID: 27278775,confidence score: high
-DERL1,ER,Itzhak et al 2016 PMID: 27278775,confidence score: high
-DHRS3,ER,Itzhak et al 2016 PMID: 27278775,confidence score: high
-DHRSX,ER,Itzhak et al 2016 PMID: 27278775,confidence score: high
-DNAJB11,ER,Itzhak et al 2016 PMID: 27278775,confidence score: high
-DNAJB14,ER,Itzhak et al 2016 PMID: 27278775,confidence score: high
-DNAJC1,ER,Itzhak et al 2016 PMID: 27278775,confidence score: high
-DNAJC3,ER,Itzhak et al 2016 PMID: 27278775,confidence score: high
-DPAGT1,ER,Itzhak et al 2016 PMID: 27278775,confidence score: high
-EMC1,ER,Itzhak et al 2016 PMID: 27278775,confidence score: high
-EMC2,ER,Itzhak et al 2016 PMID: 27278775,confidence score: high
-EMC7,ER,Itzhak et al 2016 PMID: 27278775,confidence score: high
-EOGT,ER,Itzhak et al 2016 PMID: 27278775,confidence score: high
-ERAP1,ER,Itzhak et al 2016 PMID: 27278775,confidence score: high
-ERO1A,ER,Itzhak et al 2016 PMID: 27278775,confidence score: high
-ERP29,ER,Itzhak et al 2016 PMID: 27278775,confidence score: high
-FBLN1,ER,Itzhak et al 2016 PMID: 27278775,confidence score: high
-FBLN1,ER,Itzhak et al 2016 PMID: 27278775,confidence score: high
-FKBP14,ER,Itzhak et al 2016 PMID: 27278775,confidence score: high
-FNDC3A,ER,Itzhak et al 2016 PMID: 27278775,confidence score: high
-FSTL3,ER,Itzhak et al 2016 PMID: 27278775,confidence score: high
-G6PC3,ER,Itzhak et al 2016 PMID: 27278775,confidence score: high
-GPAT4,ER,Itzhak et al 2016 PMID: 27278775,confidence score: high
-GRAMD2B,ER,Itzhak et al 2016 PMID: 27278775,confidence score: high
-HMOX1,ER,Itzhak et al 2016 PMID: 27278775,confidence score: high
-HSP90B1,ER,Itzhak et al 2016 PMID: 27278775,confidence score: high
-HSPA13,ER,Itzhak et al 2016 PMID: 27278775,confidence score: high
-HSPA5,ER,Itzhak et al 2016 PMID: 27278775,confidence score: high
-IKBIP,ER,Itzhak et al 2016 PMID: 27278775,confidence score: high
-ITPR2,ER,Itzhak et al 2016 PMID: 27278775,confidence score: high
-KTN1,ER,Itzhak et al 2016 PMID: 27278775,confidence score: high
-LAMB3,ER,Itzhak et al 2016 PMID: 27278775,confidence score: high
-LAMC1,ER,Itzhak et al 2016 PMID: 27278775,confidence score: high
-LEMD2,ER,Itzhak et al 2016 PMID: 27278775,confidence score: high
-LNPK,ER,Itzhak et al 2016 PMID: 27278775,confidence score: high
-LPCAT2,ER,Itzhak et al 2016 PMID: 27278775,confidence score: high
-LSG1,ER,Itzhak et al 2016 PMID: 27278775,confidence score: high
-MAGT1,ER,Itzhak et al 2016 PMID: 27278775,confidence score: high
-MANF,ER,Itzhak et al 2016 PMID: 27278775,confidence score: high
-MESD,ER,Itzhak et al 2016 PMID: 27278775,confidence score: high
-MLEC,ER,Itzhak et al 2016 PMID: 27278775,confidence score: high
-MOSPD1,ER,Itzhak et al 2016 PMID: 27278775,confidence score: high
-MYDGF,ER,Itzhak et al 2016 PMID: 27278775,confidence score: high
-NBAS,ER,Itzhak et al 2016 PMID: 27278775,confidence score: high
-NENF,ER,Itzhak et al 2016 PMID: 27278775,confidence score: high
-NFXL1,ER,Itzhak et al 2016 PMID: 27278775,confidence score: high
-NOMO1,ER,Itzhak et al 2016 PMID: 27278775,confidence score: high
-OSBPL8,ER,Itzhak et al 2016 PMID: 27278775,confidence score: high
-P3H2,ER,Itzhak et al 2016 PMID: 27278775,confidence score: high
-P3H4,ER,Itzhak et al 2016 PMID: 27278775,confidence score: high
-P4HA2,ER,Itzhak et al 2016 PMID: 27278775,confidence score: high
-PDIA3,ER,Itzhak et al 2016 PMID: 27278775,confidence score: high
-PDIA4,ER,Itzhak et al 2016 PMID: 27278775,confidence score: high
-PDIA5,ER,Itzhak et al 2016 PMID: 27278775,confidence score: high
-PDIA6,ER,Itzhak et al 2016 PMID: 27278775,confidence score: high
-PLOD2,ER,Itzhak et al 2016 PMID: 27278775,confidence score: high
-PNPLA6,ER,Itzhak et al 2016 PMID: 27278775,confidence score: high
-POFUT1,ER,Itzhak et al 2016 PMID: 27278775,confidence score: high
-POGLUT2,ER,Itzhak et al 2016 PMID: 27278775,confidence score: high
-PREB,ER,Itzhak et al 2016 PMID: 27278775,confidence score: high
-RCN1,ER,Itzhak et al 2016 PMID: 27278775,confidence score: high
-RCN2,ER,Itzhak et al 2016 PMID: 27278775,confidence score: high
-RCN3,ER,Itzhak et al 2016 PMID: 27278775,confidence score: high
-RINT1,ER,Itzhak et al 2016 PMID: 27278775,confidence score: high
-RRBP1,ER,Itzhak et al 2016 PMID: 27278775,confidence score: high
-SCD,ER,Itzhak et al 2016 PMID: 27278775,confidence score: high
-SCFD2,ER,Itzhak et al 2016 PMID: 27278775,confidence score: high
-SDF2L1,ER,Itzhak et al 2016 PMID: 27278775,confidence score: high
-SEC61A1,ER,Itzhak et al 2016 PMID: 27278775,confidence score: high
-SEC62,ER,Itzhak et al 2016 PMID: 27278775,confidence score: high
-SEC63,ER,Itzhak et al 2016 PMID: 27278775,confidence score: high
-SEL1L,ER,Itzhak et al 2016 PMID: 27278775,confidence score: high
-SELENOF,ER,Itzhak et al 2016 PMID: 27278775,confidence score: high
-SERPINH1,ER,Itzhak et al 2016 PMID: 27278775,confidence score: high
-SLC22A18,ER,Itzhak et al 2016 PMID: 27278775,confidence score: high
-SLC39A7,ER,Itzhak et al 2016 PMID: 27278775,confidence score: high
-SPCS1,ER,Itzhak et al 2016 PMID: 27278775,confidence score: high
-SQLE,ER,Itzhak et al 2016 PMID: 27278775,confidence score: high
-SRP68,ER,Itzhak et al 2016 PMID: 27278775,confidence score: high
-SRPRA,ER,Itzhak et al 2016 PMID: 27278775,confidence score: high
-SSR3,ER,Itzhak et al 2016 PMID: 27278775,confidence score: high
-SSR4,ER,Itzhak et al 2016 PMID: 27278775,confidence score: high
-ST7,ER,Itzhak et al 2016 PMID: 27278775,confidence score: high
-STT3B,ER,Itzhak et al 2016 PMID: 27278775,confidence score: high
-STX18,ER,Itzhak et al 2016 PMID: 27278775,confidence score: high
-SYVN1,ER,Itzhak et al 2016 PMID: 27278775,confidence score: high
-TGFBR1,ER,Itzhak et al 2016 PMID: 27278775,confidence score: high
-TM2D3,ER,Itzhak et al 2016 PMID: 27278775,confidence score: high
-TMBIM6,ER,Itzhak et al 2016 PMID: 27278775,confidence score: high
-TMCO1,ER,Itzhak et al 2016 PMID: 27278775,confidence score: high
-TMEM131,ER,Itzhak et al 2016 PMID: 27278775,confidence score: high
-TMEM199,ER,Itzhak et al 2016 PMID: 27278775,confidence score: high
-TMEM258,ER,Itzhak et al 2016 PMID: 27278775,confidence score: high
-TMEM259,ER,Itzhak et al 2016 PMID: 27278775,confidence score: high
-TMEM33,ER,Itzhak et al 2016 PMID: 27278775,confidence score: high
-TMEM38B,ER,Itzhak et al 2016 PMID: 27278775,confidence score: high
-TMT1A,ER,Itzhak et al 2016 PMID: 27278775,confidence score: high
-TMTC3,ER,Itzhak et al 2016 PMID: 27278775,confidence score: high
-TOR1B,ER,Itzhak et al 2016 PMID: 27278775,confidence score: high
-TOR2A,ER,Itzhak et al 2016 PMID: 27278775,confidence score: high
-TRAM1,ER,Itzhak et al 2016 PMID: 27278775,confidence score: high
-TREX1,ER,Itzhak et al 2016 PMID: 27278775,confidence score: high
-TTC13,ER,Itzhak et al 2016 PMID: 27278775,confidence score: high
-TTC17,ER,Itzhak et al 2016 PMID: 27278775,confidence score: high
-TXNDC15,ER,Itzhak et al 2016 PMID: 27278775,confidence score: high
-TXNDC5,ER,Itzhak et al 2016 PMID: 27278775,confidence score: high
-UBE2J1,ER,Itzhak et al 2016 PMID: 27278775,confidence score: high
-UBXN4,ER,Itzhak et al 2016 PMID: 27278775,confidence score: high
-UFL1,ER,Itzhak et al 2016 PMID: 27278775,confidence score: high
-UGT8,ER,Itzhak et al 2016 PMID: 27278775,confidence score: high
-UTS2,ER,Itzhak et al 2016 PMID: 27278775,confidence score: high
-VAPA,ER,Itzhak et al 2016 PMID: 27278775,confidence score: high
-WFS1,ER,Itzhak et al 2016 PMID: 27278775,confidence score: high
 ABHD12,ER,Itzhak et al 2016 PMID: 27278775,confidence score: very high
 ABHD6,ER,Itzhak et al 2016 PMID: 27278775,confidence score: very high
 ACSL3,ER,Itzhak et al 2016 PMID: 27278775,confidence score: very high
 ADAM10,ER,Itzhak et al 2016 PMID: 27278775,confidence score: very high
 ADPGK,ER,Itzhak et al 2016 PMID: 27278775,confidence score: very high
 AGPAT1,ER,Itzhak et al 2016 PMID: 27278775,confidence score: very high
+AGPAT2,ER,Itzhak et al 2016 PMID: 27278775,confidence score: high
 AGPAT3,ER,Itzhak et al 2016 PMID: 27278775,confidence score: very high
 AGR2,ER,Itzhak et al 2016 PMID: 27278775,confidence score: very high
 ALDH3A2,ER,Itzhak et al 2016 PMID: 27278775,confidence score: very high
-PDCD6,ER,Itzhak et al 2016 PMID: 27278775,confidence score: very high
+ALG1,ER,Itzhak et al 2016 PMID: 27278775,confidence score: high
 ALG5,ER,Itzhak et al 2016 PMID: 27278775,confidence score: very high
 ALG6,ER,Itzhak et al 2016 PMID: 27278775,confidence score: very high
+ALG8,ER,Itzhak et al 2016 PMID: 27278775,confidence score: high
+ALG9,ER,Itzhak et al 2016 PMID: 27278775,confidence score: high
+AMFR,ER,Itzhak et al 2016 PMID: 27278775,confidence score: high
 ANKLE2,ER,Itzhak et al 2016 PMID: 27278775,confidence score: very high
 ANO10,ER,Itzhak et al 2016 PMID: 27278775,confidence score: very high
 APMAP,ER,Itzhak et al 2016 PMID: 27278775,confidence score: very high
 APOL2,ER,Itzhak et al 2016 PMID: 27278775,confidence score: very high
 ARL6IP5,ER,Itzhak et al 2016 PMID: 27278775,confidence score: very high
 ASPH,ER,Itzhak et al 2016 PMID: 27278775,confidence score: very high
+ATP13A1,ER,Itzhak et al 2016 PMID: 27278775,confidence score: high
 ATP2A2,ER,Itzhak et al 2016 PMID: 27278775,confidence score: very high
+ATP6AP2,ER,Itzhak et al 2016 PMID: 27278775,confidence score: high
 AUP1,ER,Itzhak et al 2016 PMID: 27278775,confidence score: very high
 BCAP29,ER,Itzhak et al 2016 PMID: 27278775,confidence score: very high
 BCAP31,ER,Itzhak et al 2016 PMID: 27278775,confidence score: very high
+BLTP2,ER,Itzhak et al 2016 PMID: 27278775,confidence score: high
 BNIP1,ER,Itzhak et al 2016 PMID: 27278775,confidence score: very high
 BRI3BP,ER,Itzhak et al 2016 PMID: 27278775,confidence score: very high
+BTD,ER,Itzhak et al 2016 PMID: 27278775,confidence score: high
 C4orf3,ER,Itzhak et al 2016 PMID: 27278775,confidence score: very high
+CALR,ER,Itzhak et al 2016 PMID: 27278775,confidence score: high
 CALU,ER,Itzhak et al 2016 PMID: 27278775,confidence score: very high
 CANX,ER,Itzhak et al 2016 PMID: 27278775,confidence score: very high
 CCDC134,ER,Itzhak et al 2016 PMID: 27278775,confidence score: very high
+CCDC47,ER,Itzhak et al 2016 PMID: 27278775,confidence score: high
+CDIPT,ER,Itzhak et al 2016 PMID: 27278775,confidence score: high
+CDK5RAP3,ER,Itzhak et al 2016 PMID: 27278775,confidence score: high
 CDKAL1,ER,Itzhak et al 2016 PMID: 27278775,confidence score: very high
 CEPT1,ER,Itzhak et al 2016 PMID: 27278775,confidence score: very high
 CERS2,ER,Itzhak et al 2016 PMID: 27278775,confidence score: very high
+CERS5,ER,Itzhak et al 2016 PMID: 27278775,confidence score: high
+CHP1,ER,Itzhak et al 2016 PMID: 27278775,confidence score: high
 CISD2,ER,Itzhak et al 2016 PMID: 27278775,confidence score: very high
 CLCC1,ER,Itzhak et al 2016 PMID: 27278775,confidence score: very high
 CLPTM1,ER,Itzhak et al 2016 PMID: 27278775,confidence score: very high
 CLPTM1L,ER,Itzhak et al 2016 PMID: 27278775,confidence score: very high
+CNPY2,ER,Itzhak et al 2016 PMID: 27278775,confidence score: high
+CNPY4,ER,Itzhak et al 2016 PMID: 27278775,confidence score: high
 COL4A2,ER,Itzhak et al 2016 PMID: 27278775,confidence score: very high
 COLGALT1,ER,Itzhak et al 2016 PMID: 27278775,confidence score: very high
 COMT,ER,Itzhak et al 2016 PMID: 27278775,confidence score: very high
 CPA4,ER,Itzhak et al 2016 PMID: 27278775,confidence score: very high
+CRELD1,ER,Itzhak et al 2016 PMID: 27278775,confidence score: high
 CRELD2,ER,Itzhak et al 2016 PMID: 27278775,confidence score: very high
+CRLF1,ER,Itzhak et al 2016 PMID: 27278775,confidence score: high
 CRTAP,ER,Itzhak et al 2016 PMID: 27278775,confidence score: very high
 CYB561D2,ER,Itzhak et al 2016 PMID: 27278775,confidence score: very high
 CYP20A1,ER,Itzhak et al 2016 PMID: 27278775,confidence score: very high
@@ -299,13 +637,21 @@ DAD1,ER,Itzhak et al 2016 PMID: 27278775,confidence score: very high
 DDOST,ER,Itzhak et al 2016 PMID: 27278775,confidence score: very high
 DDRGK1,ER,Itzhak et al 2016 PMID: 27278775,confidence score: very high
 DEGS1,ER,Itzhak et al 2016 PMID: 27278775,confidence score: very high
+DERL1,ER,Itzhak et al 2016 PMID: 27278775,confidence score: high
 DHCR24,ER,Itzhak et al 2016 PMID: 27278775,confidence score: very high
 DHCR7,ER,Itzhak et al 2016 PMID: 27278775,confidence score: very high
 DHRS13,ER,Itzhak et al 2016 PMID: 27278775,confidence score: very high
+DHRS3,ER,Itzhak et al 2016 PMID: 27278775,confidence score: high
 DHRS7,ER,Itzhak et al 2016 PMID: 27278775,confidence score: very high
 DHRS7B,ER,Itzhak et al 2016 PMID: 27278775,confidence score: very high
+DHRSX,ER,Itzhak et al 2016 PMID: 27278775,confidence score: high
+DNAJB11,ER,Itzhak et al 2016 PMID: 27278775,confidence score: high
 DNAJB12,ER,Itzhak et al 2016 PMID: 27278775,confidence score: very high
+DNAJB14,ER,Itzhak et al 2016 PMID: 27278775,confidence score: high
+DNAJC1,ER,Itzhak et al 2016 PMID: 27278775,confidence score: high
 DNAJC10,ER,Itzhak et al 2016 PMID: 27278775,confidence score: very high
+DNAJC3,ER,Itzhak et al 2016 PMID: 27278775,confidence score: high
+DPAGT1,ER,Itzhak et al 2016 PMID: 27278775,confidence score: high
 DPM1,ER,Itzhak et al 2016 PMID: 27278775,confidence score: very high
 DPM3,ER,Itzhak et al 2016 PMID: 27278775,confidence score: very high
 EBP,ER,Itzhak et al 2016 PMID: 27278775,confidence score: very high
@@ -313,72 +659,115 @@ ECEL1,ER,Itzhak et al 2016 PMID: 27278775,confidence score: very high
 EIF2AK3,ER,Itzhak et al 2016 PMID: 27278775,confidence score: very high
 ELOVL1,ER,Itzhak et al 2016 PMID: 27278775,confidence score: very high
 ELOVL5,ER,Itzhak et al 2016 PMID: 27278775,confidence score: very high
+EMC1,ER,Itzhak et al 2016 PMID: 27278775,confidence score: high
+EMC2,ER,Itzhak et al 2016 PMID: 27278775,confidence score: high
+EMC7,ER,Itzhak et al 2016 PMID: 27278775,confidence score: high
 EMD,ER,Itzhak et al 2016 PMID: 27278775,confidence score: very high
+EOGT,ER,Itzhak et al 2016 PMID: 27278775,confidence score: high
 EPHX1,ER,Itzhak et al 2016 PMID: 27278775,confidence score: very high
+ERAP1,ER,Itzhak et al 2016 PMID: 27278775,confidence score: high
 ERLIN1,ER,Itzhak et al 2016 PMID: 27278775,confidence score: very high
 ERLIN2,ER,Itzhak et al 2016 PMID: 27278775,confidence score: very high
 ERMP1,ER,Itzhak et al 2016 PMID: 27278775,confidence score: very high
+ERO1A,ER,Itzhak et al 2016 PMID: 27278775,confidence score: high
+ERP29,ER,Itzhak et al 2016 PMID: 27278775,confidence score: high
 FADS1,ER,Itzhak et al 2016 PMID: 27278775,confidence score: very high
 FADS3,ER,Itzhak et al 2016 PMID: 27278775,confidence score: very high
+FBLN1,ER,Itzhak et al 2016 PMID: 27278775,confidence score: high
 FDFT1,ER,Itzhak et al 2016 PMID: 27278775,confidence score: very high
 FKBP10,ER,Itzhak et al 2016 PMID: 27278775,confidence score: very high
+FKBP14,ER,Itzhak et al 2016 PMID: 27278775,confidence score: high
 FKBP2,ER,Itzhak et al 2016 PMID: 27278775,confidence score: very high
 FKBP9,ER,Itzhak et al 2016 PMID: 27278775,confidence score: very high
+FNDC3A,ER,Itzhak et al 2016 PMID: 27278775,confidence score: high
 FNDC3B,ER,Itzhak et al 2016 PMID: 27278775,confidence score: very high
+FSTL3,ER,Itzhak et al 2016 PMID: 27278775,confidence score: high
+G6PC3,ER,Itzhak et al 2016 PMID: 27278775,confidence score: high
 GANAB,ER,Itzhak et al 2016 PMID: 27278775,confidence score: very high
 GDE1,ER,Itzhak et al 2016 PMID: 27278775,confidence score: very high
 GGCX,ER,Itzhak et al 2016 PMID: 27278775,confidence score: very high
 GHDC,ER,Itzhak et al 2016 PMID: 27278775,confidence score: very high
 GPAA1,ER,Itzhak et al 2016 PMID: 27278775,confidence score: very high
+GPAT4,ER,Itzhak et al 2016 PMID: 27278775,confidence score: high
 GPX8,ER,Itzhak et al 2016 PMID: 27278775,confidence score: very high
+GRAMD2B,ER,Itzhak et al 2016 PMID: 27278775,confidence score: high
 HACD2,ER,Itzhak et al 2016 PMID: 27278775,confidence score: very high
 HACD3,ER,Itzhak et al 2016 PMID: 27278775,confidence score: very high
 HM13,ER,Itzhak et al 2016 PMID: 27278775,confidence score: very high
+HMOX1,ER,Itzhak et al 2016 PMID: 27278775,confidence score: high
 HMOX2,ER,Itzhak et al 2016 PMID: 27278775,confidence score: very high
 HSD17B11,ER,Itzhak et al 2016 PMID: 27278775,confidence score: very high
 HSD17B12,ER,Itzhak et al 2016 PMID: 27278775,confidence score: very high
+HSP90B1,ER,Itzhak et al 2016 PMID: 27278775,confidence score: high
+HSPA13,ER,Itzhak et al 2016 PMID: 27278775,confidence score: high
+HSPA5,ER,Itzhak et al 2016 PMID: 27278775,confidence score: high
 HYOU1,ER,Itzhak et al 2016 PMID: 27278775,confidence score: very high
 IKBIP,ER,Itzhak et al 2016 PMID: 27278775,confidence score: very high
 ILVBL,ER,Itzhak et al 2016 PMID: 27278775,confidence score: very high
 ITGB1,ER,Itzhak et al 2016 PMID: 27278775,confidence score: very high
 ITGB6,ER,Itzhak et al 2016 PMID: 27278775,confidence score: very high
 ITPR1,ER,Itzhak et al 2016 PMID: 27278775,confidence score: very high
+ITPR2,ER,Itzhak et al 2016 PMID: 27278775,confidence score: high
 ITPR3,ER,Itzhak et al 2016 PMID: 27278775,confidence score: very high
 JAGN1,ER,Itzhak et al 2016 PMID: 27278775,confidence score: very high
 KDSR,ER,Itzhak et al 2016 PMID: 27278775,confidence score: very high
 KRTCAP2,ER,Itzhak et al 2016 PMID: 27278775,confidence score: very high
+KTN1,ER,Itzhak et al 2016 PMID: 27278775,confidence score: high
 LAMB1,ER,Itzhak et al 2016 PMID: 27278775,confidence score: very high
+LAMB3,ER,Itzhak et al 2016 PMID: 27278775,confidence score: high
+LAMC1,ER,Itzhak et al 2016 PMID: 27278775,confidence score: high
 LBR,ER,Itzhak et al 2016 PMID: 27278775,confidence score: very high
 LCLAT1,ER,Itzhak et al 2016 PMID: 27278775,confidence score: very high
+LEMD2,ER,Itzhak et al 2016 PMID: 27278775,confidence score: high
 LGALS3BP,ER,Itzhak et al 2016 PMID: 27278775,confidence score: very high
 LMF2,ER,Itzhak et al 2016 PMID: 27278775,confidence score: very high
+LNPK,ER,Itzhak et al 2016 PMID: 27278775,confidence score: high
 LOXL2,ER,Itzhak et al 2016 PMID: 27278775,confidence score: very high
 LPCAT1,ER,Itzhak et al 2016 PMID: 27278775,confidence score: very high
+LPCAT2,ER,Itzhak et al 2016 PMID: 27278775,confidence score: high
 LPCAT3,ER,Itzhak et al 2016 PMID: 27278775,confidence score: very high
 LPGAT1,ER,Itzhak et al 2016 PMID: 27278775,confidence score: very high
 LRPAP1,ER,Itzhak et al 2016 PMID: 27278775,confidence score: very high
 LRRC59,ER,Itzhak et al 2016 PMID: 27278775,confidence score: very high
+LSG1,ER,Itzhak et al 2016 PMID: 27278775,confidence score: high
 LSS,ER,Itzhak et al 2016 PMID: 27278775,confidence score: very high
+MAGT1,ER,Itzhak et al 2016 PMID: 27278775,confidence score: high
+MANF,ER,Itzhak et al 2016 PMID: 27278775,confidence score: high
 MBOAT7,ER,Itzhak et al 2016 PMID: 27278775,confidence score: very high
+MESD,ER,Itzhak et al 2016 PMID: 27278775,confidence score: high
 MGST2,ER,Itzhak et al 2016 PMID: 27278775,confidence score: very high
 MINPP1,ER,Itzhak et al 2016 PMID: 27278775,confidence score: very high
+MLEC,ER,Itzhak et al 2016 PMID: 27278775,confidence score: high
 MOGS,ER,Itzhak et al 2016 PMID: 27278775,confidence score: very high
+MOSPD1,ER,Itzhak et al 2016 PMID: 27278775,confidence score: high
 MOSPD2,ER,Itzhak et al 2016 PMID: 27278775,confidence score: very high
 MSMO1,ER,Itzhak et al 2016 PMID: 27278775,confidence score: very high
 MTDH,ER,Itzhak et al 2016 PMID: 27278775,confidence score: very high
 MXRA7,ER,Itzhak et al 2016 PMID: 27278775,confidence score: very high
+MYDGF,ER,Itzhak et al 2016 PMID: 27278775,confidence score: high
+NBAS,ER,Itzhak et al 2016 PMID: 27278775,confidence score: high
 NCEH1,ER,Itzhak et al 2016 PMID: 27278775,confidence score: very high
+NENF,ER,Itzhak et al 2016 PMID: 27278775,confidence score: high
+NFXL1,ER,Itzhak et al 2016 PMID: 27278775,confidence score: high
+NOMO1,ER,Itzhak et al 2016 PMID: 27278775,confidence score: high
 NPTX1,ER,Itzhak et al 2016 PMID: 27278775,confidence score: very high
 NSDHL,ER,Itzhak et al 2016 PMID: 27278775,confidence score: very high
-NUP210,ER,Itzhak et al 2016 PMID: 27278775,confidence score: very high
 ODR4,ER,Itzhak et al 2016 PMID: 27278775,confidence score: very high
 OS9,ER,Itzhak et al 2016 PMID: 27278775,confidence score: very high
+OSBPL8,ER,Itzhak et al 2016 PMID: 27278775,confidence score: high
 P3H1,ER,Itzhak et al 2016 PMID: 27278775,confidence score: very high
+P3H2,ER,Itzhak et al 2016 PMID: 27278775,confidence score: high
+P3H4,ER,Itzhak et al 2016 PMID: 27278775,confidence score: high
 P4HA1,ER,Itzhak et al 2016 PMID: 27278775,confidence score: very high
+P4HA2,ER,Itzhak et al 2016 PMID: 27278775,confidence score: high
 P4HB,ER,Itzhak et al 2016 PMID: 27278775,confidence score: very high
 PCSK9,ER,Itzhak et al 2016 PMID: 27278775,confidence score: very high
 PCYOX1,ER,Itzhak et al 2016 PMID: 27278775,confidence score: very high
-PEX6,ER,Itzhak et al 2016 PMID: 27278775,confidence score: very high
+PDCD6,ER,Itzhak et al 2016 PMID: 27278775,confidence score: very high
+PDIA3,ER,Itzhak et al 2016 PMID: 27278775,confidence score: high
+PDIA4,ER,Itzhak et al 2016 PMID: 27278775,confidence score: high
+PDIA5,ER,Itzhak et al 2016 PMID: 27278775,confidence score: high
+PDIA6,ER,Itzhak et al 2016 PMID: 27278775,confidence score: high
 PGRMC1,ER,Itzhak et al 2016 PMID: 27278775,confidence score: very high
 PGRMC2,ER,Itzhak et al 2016 PMID: 27278775,confidence score: very high
 PIGK,ER,Itzhak et al 2016 PMID: 27278775,confidence score: very high
@@ -388,12 +777,17 @@ PIGT,ER,Itzhak et al 2016 PMID: 27278775,confidence score: very high
 PIGU,ER,Itzhak et al 2016 PMID: 27278775,confidence score: very high
 PKMYT1,ER,Itzhak et al 2016 PMID: 27278775,confidence score: very high
 PLOD1,ER,Itzhak et al 2016 PMID: 27278775,confidence score: very high
+PLOD2,ER,Itzhak et al 2016 PMID: 27278775,confidence score: high
 PLOD3,ER,Itzhak et al 2016 PMID: 27278775,confidence score: very high
+PNPLA6,ER,Itzhak et al 2016 PMID: 27278775,confidence score: high
+POFUT1,ER,Itzhak et al 2016 PMID: 27278775,confidence score: high
 POGLUT1,ER,Itzhak et al 2016 PMID: 27278775,confidence score: very high
+POGLUT2,ER,Itzhak et al 2016 PMID: 27278775,confidence score: high
 PON2,ER,Itzhak et al 2016 PMID: 27278775,confidence score: very high
 POR,ER,Itzhak et al 2016 PMID: 27278775,confidence score: very high
 PPIB,ER,Itzhak et al 2016 PMID: 27278775,confidence score: very high
 PRDX4,ER,Itzhak et al 2016 PMID: 27278775,confidence score: very high
+PREB,ER,Itzhak et al 2016 PMID: 27278775,confidence score: high
 PRKCSH,ER,Itzhak et al 2016 PMID: 27278775,confidence score: very high
 PRSS21,ER,Itzhak et al 2016 PMID: 27278775,confidence score: very high
 PTDSS1,ER,Itzhak et al 2016 PMID: 27278775,confidence score: very high
@@ -401,37 +795,63 @@ PTDSS2,ER,Itzhak et al 2016 PMID: 27278775,confidence score: very high
 PTPN1,ER,Itzhak et al 2016 PMID: 27278775,confidence score: very high
 PXDN,ER,Itzhak et al 2016 PMID: 27278775,confidence score: very high
 RCE1,ER,Itzhak et al 2016 PMID: 27278775,confidence score: very high
+RCN1,ER,Itzhak et al 2016 PMID: 27278775,confidence score: high
+RCN2,ER,Itzhak et al 2016 PMID: 27278775,confidence score: high
+RCN3,ER,Itzhak et al 2016 PMID: 27278775,confidence score: high
 RDH10,ER,Itzhak et al 2016 PMID: 27278775,confidence score: very high
 RDH11,ER,Itzhak et al 2016 PMID: 27278775,confidence score: very high
 RETSAT,ER,Itzhak et al 2016 PMID: 27278775,confidence score: very high
 RFT1,ER,Itzhak et al 2016 PMID: 27278775,confidence score: very high
+RINT1,ER,Itzhak et al 2016 PMID: 27278775,confidence score: high
 RPN1,ER,Itzhak et al 2016 PMID: 27278775,confidence score: very high
 RPN2,ER,Itzhak et al 2016 PMID: 27278775,confidence score: very high
+RRBP1,ER,Itzhak et al 2016 PMID: 27278775,confidence score: high
 RUSF1,ER,Itzhak et al 2016 PMID: 27278775,confidence score: very high
 SACM1L,ER,Itzhak et al 2016 PMID: 27278775,confidence score: very high
 SCARB1,ER,Itzhak et al 2016 PMID: 27278775,confidence score: very high
+SCD,ER,Itzhak et al 2016 PMID: 27278775,confidence score: high
+SCFD2,ER,Itzhak et al 2016 PMID: 27278775,confidence score: high
 SDF2,ER,Itzhak et al 2016 PMID: 27278775,confidence score: very high
+SDF2L1,ER,Itzhak et al 2016 PMID: 27278775,confidence score: high
 SEC11A,ER,Itzhak et al 2016 PMID: 27278775,confidence score: very high
+SEC61A1,ER,Itzhak et al 2016 PMID: 27278775,confidence score: high
 SEC61B,ER,Itzhak et al 2016 PMID: 27278775,confidence score: very high
 SEC61G,ER,Itzhak et al 2016 PMID: 27278775,confidence score: very high
+SEC62,ER,Itzhak et al 2016 PMID: 27278775,confidence score: high
+SEC63,ER,Itzhak et al 2016 PMID: 27278775,confidence score: high
+SEL1L,ER,Itzhak et al 2016 PMID: 27278775,confidence score: high
+SELENOF,ER,Itzhak et al 2016 PMID: 27278775,confidence score: high
+SERPINH1,ER,Itzhak et al 2016 PMID: 27278775,confidence score: high
 SERPINI1,ER,Itzhak et al 2016 PMID: 27278775,confidence score: very high
 SGPL1,ER,Itzhak et al 2016 PMID: 27278775,confidence score: very high
 SGPP1,ER,Itzhak et al 2016 PMID: 27278775,confidence score: very high
 SIGMAR1,ER,Itzhak et al 2016 PMID: 27278775,confidence score: very high
+SLC22A18,ER,Itzhak et al 2016 PMID: 27278775,confidence score: high
 SLC27A2,ER,Itzhak et al 2016 PMID: 27278775,confidence score: very high
 SLC27A4,ER,Itzhak et al 2016 PMID: 27278775,confidence score: very high
 SLC33A1,ER,Itzhak et al 2016 PMID: 27278775,confidence score: very high
+SLC39A7,ER,Itzhak et al 2016 PMID: 27278775,confidence score: high
 SOAT1,ER,Itzhak et al 2016 PMID: 27278775,confidence score: very high
+SPCS1,ER,Itzhak et al 2016 PMID: 27278775,confidence score: high
 SPCS2,ER,Itzhak et al 2016 PMID: 27278775,confidence score: very high
 SPCS3,ER,Itzhak et al 2016 PMID: 27278775,confidence score: very high
 SPTLC1,ER,Itzhak et al 2016 PMID: 27278775,confidence score: very high
 SPTLC2,ER,Itzhak et al 2016 PMID: 27278775,confidence score: very high
+SQLE,ER,Itzhak et al 2016 PMID: 27278775,confidence score: high
 SRP54,ER,Itzhak et al 2016 PMID: 27278775,confidence score: very high
+SRP68,ER,Itzhak et al 2016 PMID: 27278775,confidence score: high
+SRPRA,ER,Itzhak et al 2016 PMID: 27278775,confidence score: high
 SRPRB,ER,Itzhak et al 2016 PMID: 27278775,confidence score: very high
 SSR1,ER,Itzhak et al 2016 PMID: 27278775,confidence score: very high
+SSR3,ER,Itzhak et al 2016 PMID: 27278775,confidence score: high
+SSR4,ER,Itzhak et al 2016 PMID: 27278775,confidence score: high
+ST7,ER,Itzhak et al 2016 PMID: 27278775,confidence score: high
 STIM1,ER,Itzhak et al 2016 PMID: 27278775,confidence score: very high
 STT3A,ER,Itzhak et al 2016 PMID: 27278775,confidence score: very high
+STT3B,ER,Itzhak et al 2016 PMID: 27278775,confidence score: high
+STX18,ER,Itzhak et al 2016 PMID: 27278775,confidence score: high
 SUMF2,ER,Itzhak et al 2016 PMID: 27278775,confidence score: very high
+SYVN1,ER,Itzhak et al 2016 PMID: 27278775,confidence score: high
 TAP1,ER,Itzhak et al 2016 PMID: 27278775,confidence score: very high
 TAP2,ER,Itzhak et al 2016 PMID: 27278775,confidence score: very high
 TAPBP,ER,Itzhak et al 2016 PMID: 27278775,confidence score: very high
@@ -439,62 +859,63 @@ TBL2,ER,Itzhak et al 2016 PMID: 27278775,confidence score: very high
 TECR,ER,Itzhak et al 2016 PMID: 27278775,confidence score: very high
 TEX264,ER,Itzhak et al 2016 PMID: 27278775,confidence score: very high
 TGFB1,ER,Itzhak et al 2016 PMID: 27278775,confidence score: very high
+TGFBR1,ER,Itzhak et al 2016 PMID: 27278775,confidence score: high
 THEM6,ER,Itzhak et al 2016 PMID: 27278775,confidence score: very high
+TM2D3,ER,Itzhak et al 2016 PMID: 27278775,confidence score: high
+TMBIM6,ER,Itzhak et al 2016 PMID: 27278775,confidence score: high
+TMCO1,ER,Itzhak et al 2016 PMID: 27278775,confidence score: high
 TMEM109,ER,Itzhak et al 2016 PMID: 27278775,confidence score: very high
+TMEM131,ER,Itzhak et al 2016 PMID: 27278775,confidence score: high
 TMEM164,ER,Itzhak et al 2016 PMID: 27278775,confidence score: very high
+TMEM199,ER,Itzhak et al 2016 PMID: 27278775,confidence score: high
 TMEM205,ER,Itzhak et al 2016 PMID: 27278775,confidence score: very high
 TMEM214,ER,Itzhak et al 2016 PMID: 27278775,confidence score: very high
 TMEM245,ER,Itzhak et al 2016 PMID: 27278775,confidence score: very high
+TMEM258,ER,Itzhak et al 2016 PMID: 27278775,confidence score: high
+TMEM259,ER,Itzhak et al 2016 PMID: 27278775,confidence score: high
+TMEM33,ER,Itzhak et al 2016 PMID: 27278775,confidence score: high
+TMEM38B,ER,Itzhak et al 2016 PMID: 27278775,confidence score: high
 TMEM43,ER,Itzhak et al 2016 PMID: 27278775,confidence score: very high
 TMEM97,ER,Itzhak et al 2016 PMID: 27278775,confidence score: very high
+TMT1A,ER,Itzhak et al 2016 PMID: 27278775,confidence score: high
+TMTC3,ER,Itzhak et al 2016 PMID: 27278775,confidence score: high
 TMX1,ER,Itzhak et al 2016 PMID: 27278775,confidence score: very high
 TMX2,ER,Itzhak et al 2016 PMID: 27278775,confidence score: very high
 TMX3,ER,Itzhak et al 2016 PMID: 27278775,confidence score: very high
 TOR1A,ER,Itzhak et al 2016 PMID: 27278775,confidence score: very high
 TOR1AIP2,ER,Itzhak et al 2016 PMID: 27278775,confidence score: very high
+TOR1B,ER,Itzhak et al 2016 PMID: 27278775,confidence score: high
+TOR2A,ER,Itzhak et al 2016 PMID: 27278775,confidence score: high
 TOR3A,ER,Itzhak et al 2016 PMID: 27278775,confidence score: very high
+TRAM1,ER,Itzhak et al 2016 PMID: 27278775,confidence score: high
+TREX1,ER,Itzhak et al 2016 PMID: 27278775,confidence score: high
+TTC13,ER,Itzhak et al 2016 PMID: 27278775,confidence score: high
+TTC17,ER,Itzhak et al 2016 PMID: 27278775,confidence score: high
+TXNDC15,ER,Itzhak et al 2016 PMID: 27278775,confidence score: high
+TXNDC5,ER,Itzhak et al 2016 PMID: 27278775,confidence score: high
 TYW1,ER,Itzhak et al 2016 PMID: 27278775,confidence score: very high
 UBAC2,ER,Itzhak et al 2016 PMID: 27278775,confidence score: very high
 UBE2G2,ER,Itzhak et al 2016 PMID: 27278775,confidence score: very high
+UBE2J1,ER,Itzhak et al 2016 PMID: 27278775,confidence score: high
+UBXN4,ER,Itzhak et al 2016 PMID: 27278775,confidence score: high
+UFL1,ER,Itzhak et al 2016 PMID: 27278775,confidence score: high
 UFSP2,ER,Itzhak et al 2016 PMID: 27278775,confidence score: very high
 UGGT1,ER,Itzhak et al 2016 PMID: 27278775,confidence score: very high
+UGT8,ER,Itzhak et al 2016 PMID: 27278775,confidence score: high
 USE1,ER,Itzhak et al 2016 PMID: 27278775,confidence score: very high
+UTS2,ER,Itzhak et al 2016 PMID: 27278775,confidence score: high
+VAPA,ER,Itzhak et al 2016 PMID: 27278775,confidence score: high
 VAPB,ER,Itzhak et al 2016 PMID: 27278775,confidence score: very high
 VKORC1,ER,Itzhak et al 2016 PMID: 27278775,confidence score: very high
 VKORC1L1,ER,Itzhak et al 2016 PMID: 27278775,confidence score: very high
 VMP1,ER,Itzhak et al 2016 PMID: 27278775,confidence score: very high
 VRK2,ER,Itzhak et al 2016 PMID: 27278775,confidence score: very high
+WFS1,ER,Itzhak et al 2016 PMID: 27278775,confidence score: high
 WLS,ER,Itzhak et al 2016 PMID: 27278775,confidence score: very high
 XXYLT1,ER,Itzhak et al 2016 PMID: 27278775,confidence score: very high
 ZMPSTE24,ER,Itzhak et al 2016 PMID: 27278775,confidence score: very high
-ERGIC1,ERGIC,Itzhak et al 2016 PMID: 27278775,confidence score: high
-ERGIC2,ERGIC,Itzhak et al 2016 PMID: 27278775,confidence score: high
-GLE1,ERGIC,Itzhak et al 2016 PMID: 27278775,confidence score: high
-IER3IP1,ERGIC,Itzhak et al 2016 PMID: 27278775,confidence score: high
-LMAN2L,ERGIC,Itzhak et al 2016 PMID: 27278775,confidence score: high
-MCFD2,ERGIC,Itzhak et al 2016 PMID: 27278775,confidence score: high
-RAB1A,ERGIC,Itzhak et al 2016 PMID: 27278775,confidence score: high
-RAB1B,ERGIC,Itzhak et al 2016 PMID: 27278775,confidence score: high
-SURF4,ERGIC,Itzhak et al 2016 PMID: 27278775,confidence score: high
-TMED5,ERGIC,Itzhak et al 2016 PMID: 27278775,confidence score: high
-TMEM181,ERGIC,Itzhak et al 2016 PMID: 27278775,confidence score: high
-TSPAN13,ERGIC,Itzhak et al 2016 PMID: 27278775,confidence score: high
-BET1,ERGIC,Itzhak et al 2016 PMID: 27278775,confidence score: very high
-ERP44,ERGIC,Itzhak et al 2016 PMID: 27278775,confidence score: very high
-GOLT1B,ERGIC,Itzhak et al 2016 PMID: 27278775,confidence score: very high
-GOSR2,ERGIC,Itzhak et al 2016 PMID: 27278775,confidence score: very high
-KDELR2,ERGIC,Itzhak et al 2016 PMID: 27278775,confidence score: very high
-LMAN2,ERGIC,Itzhak et al 2016 PMID: 27278775,confidence score: very high
-SPRYD7,ERGIC,Itzhak et al 2016 PMID: 27278775,confidence score: very high
-STX5,ERGIC,Itzhak et al 2016 PMID: 27278775,confidence score: very high
-TMED10,ERGIC,Itzhak et al 2016 PMID: 27278775,confidence score: very high
-TMED2,ERGIC,Itzhak et al 2016 PMID: 27278775,confidence score: very high
-TMED3,ERGIC,Itzhak et al 2016 PMID: 27278775,confidence score: very high
-TMED4,ERGIC,Itzhak et al 2016 PMID: 27278775,confidence score: very high
-TMED9,ERGIC,Itzhak et al 2016 PMID: 27278775,confidence score: very high
-ERGIC3,ERGIC,manual curation,canonical ERGIC marker
-LMAN1,ERGIC,manual curation,canonical ERGIC marker (ERGIC53)
 ARCN1,ERGIC,manual curation,COP-I complex
+BET1,ERGIC,Itzhak et al 2016 PMID: 27278775,confidence score: very high
 COPA,ERGIC,manual curation,COP-I complex
 COPB1,ERGIC,manual curation,COP-I complex
 COPB2,ERGIC,manual curation,COP-I complex
@@ -503,6 +924,21 @@ COPG1,ERGIC,manual curation,COP-I complex
 COPG2,ERGIC,manual curation,COP-I complex
 COPZ1,ERGIC,manual curation,COP-I complex
 COPZ2,ERGIC,manual curation,COP-I complex
+ERGIC1,ERGIC,Itzhak et al 2016 PMID: 27278775,confidence score: high
+ERGIC2,ERGIC,Itzhak et al 2016 PMID: 27278775,confidence score: high
+ERGIC3,ERGIC,manual curation,canonical ERGIC marker
+ERP44,ERGIC,Itzhak et al 2016 PMID: 27278775,confidence score: very high
+GLE1,ERGIC,Itzhak et al 2016 PMID: 27278775,confidence score: high
+GOLT1B,ERGIC,Itzhak et al 2016 PMID: 27278775,confidence score: very high
+GOSR2,ERGIC,Itzhak et al 2016 PMID: 27278775,confidence score: very high
+IER3IP1,ERGIC,Itzhak et al 2016 PMID: 27278775,confidence score: high
+KDELR2,ERGIC,Itzhak et al 2016 PMID: 27278775,confidence score: very high
+LMAN1,ERGIC,manual curation,canonical ERGIC marker (ERGIC53)
+LMAN2,ERGIC,Itzhak et al 2016 PMID: 27278775,confidence score: very high
+LMAN2L,ERGIC,Itzhak et al 2016 PMID: 27278775,confidence score: high
+MCFD2,ERGIC,Itzhak et al 2016 PMID: 27278775,confidence score: high
+RAB1A,ERGIC,Itzhak et al 2016 PMID: 27278775,confidence score: high
+RAB1B,ERGIC,Itzhak et al 2016 PMID: 27278775,confidence score: high
 SEC23A,ERGIC,manual curation,COP-II complex
 SEC23B,ERGIC,manual curation,COP-II complex
 SEC24A,ERGIC,manual curation,COP-II complex
@@ -511,25 +947,49 @@ SEC24C,ERGIC,manual curation,COP-II complex
 SEC24D,ERGIC,manual curation,COP-II complex
 SEC31A,ERGIC,manual curation,COP-II complex
 SEC31B,ERGIC,manual curation,COP-II complex
+SPRYD7,ERGIC,Itzhak et al 2016 PMID: 27278775,confidence score: very high
+STX5,ERGIC,Itzhak et al 2016 PMID: 27278775,confidence score: very high
+SURF4,ERGIC,Itzhak et al 2016 PMID: 27278775,confidence score: high
+TMED10,ERGIC,Itzhak et al 2016 PMID: 27278775,confidence score: very high
+TMED2,ERGIC,Itzhak et al 2016 PMID: 27278775,confidence score: very high
+TMED3,ERGIC,Itzhak et al 2016 PMID: 27278775,confidence score: very high
+TMED4,ERGIC,Itzhak et al 2016 PMID: 27278775,confidence score: very high
+TMED5,ERGIC,Itzhak et al 2016 PMID: 27278775,confidence score: high
+TMED9,ERGIC,Itzhak et al 2016 PMID: 27278775,confidence score: very high
+TMEM181,ERGIC,Itzhak et al 2016 PMID: 27278775,confidence score: high
+TSPAN13,ERGIC,Itzhak et al 2016 PMID: 27278775,confidence score: high
 ACSL4,Golgi,Itzhak et al 2016 PMID: 27278775,confidence score: high
 AIFM2,Golgi,Itzhak et al 2016 PMID: 27278775,confidence score: high
 ARFRP1,Golgi,Itzhak et al 2016 PMID: 27278775,confidence score: high
 B4GALT1,Golgi,Itzhak et al 2016 PMID: 27278775,confidence score: high
+BPNT2,Golgi,Itzhak et al 2016 PMID: 27278775,confidence score: very high
 BSDC1,Golgi,Itzhak et al 2016 PMID: 27278775,confidence score: high
-GOLM2,Golgi,Itzhak et al 2016 PMID: 27278775,confidence score: high
+CANT1,Golgi,Itzhak et al 2016 PMID: 27278775,confidence score: very high
 DUT,Golgi,Itzhak et al 2016 PMID: 27278775,confidence score: high
+EXTL2,Golgi,Itzhak et al 2016 PMID: 27278775,confidence score: very high
+FAM20B,Golgi,Itzhak et al 2016 PMID: 27278775,confidence score: very high
+GALNT1,Golgi,Itzhak et al 2016 PMID: 27278775,confidence score: very high
 GALNT2,Golgi,Itzhak et al 2016 PMID: 27278775,confidence score: high
+GALNT6,Golgi,Itzhak et al 2016 PMID: 27278775,confidence score: very high
+GALNT7,Golgi,Itzhak et al 2016 PMID: 27278775,confidence score: very high
 GARS1,Golgi,Itzhak et al 2016 PMID: 27278775,confidence score: high
 GLT8D1,Golgi,Itzhak et al 2016 PMID: 27278775,confidence score: high
+GLT8D2,Golgi,Itzhak et al 2016 PMID: 27278775,confidence score: very high
+GOLGB1,Golgi,Itzhak et al 2016 PMID: 27278775,confidence score: very high
+GOLIM4,Golgi,Itzhak et al 2016 PMID: 27278775,confidence score: very high
+GOLM2,Golgi,Itzhak et al 2016 PMID: 27278775,confidence score: high
 KIAA2013,Golgi,Itzhak et al 2016 PMID: 27278775,confidence score: high
 MAN1B1,Golgi,Itzhak et al 2016 PMID: 27278775,confidence score: high
+MAN2A1,Golgi,Itzhak et al 2016 PMID: 27278775,confidence score: very high
 MBLAC2,Golgi,Itzhak et al 2016 PMID: 27278775,confidence score: high
 MGAT1,Golgi,Itzhak et al 2016 PMID: 27278775,confidence score: high
 NIF3L1,Golgi,Itzhak et al 2016 PMID: 27278775,confidence score: high
 PREPL,Golgi,Itzhak et al 2016 PMID: 27278775,confidence score: high
-PRKCA,Golgi,Itzhak et al 2016 PMID: 27278775,confidence score: high
 PRKACB,Golgi,Itzhak et al 2016 PMID: 27278775,confidence score: high
+PRKCA,Golgi,Itzhak et al 2016 PMID: 27278775,confidence score: high
+QSOX2,Golgi,Itzhak et al 2016 PMID: 27278775,confidence score: very high
 SGMS1,Golgi,Itzhak et al 2016 PMID: 27278775,confidence score: high
+SLC30A5,Golgi,Itzhak et al 2016 PMID: 27278775,confidence score: very high
 SLC35E1,Golgi,Itzhak et al 2016 PMID: 27278775,confidence score: high
 TM9SF1,Golgi,Itzhak et al 2016 PMID: 27278775,confidence score: high
 TM9SF2,Golgi,Itzhak et al 2016 PMID: 27278775,confidence score: high
@@ -540,27 +1000,15 @@ TNS1,Golgi,Itzhak et al 2016 PMID: 27278775,confidence score: high
 TRMU,Golgi,Itzhak et al 2016 PMID: 27278775,confidence score: high
 UBIAD1,Golgi,Itzhak et al 2016 PMID: 27278775,confidence score: high
 ZFPL1,Golgi,Itzhak et al 2016 PMID: 27278775,confidence score: high
-CANT1,Golgi,Itzhak et al 2016 PMID: 27278775,confidence score: very high
-EXTL2,Golgi,Itzhak et al 2016 PMID: 27278775,confidence score: very high
-FAM20B,Golgi,Itzhak et al 2016 PMID: 27278775,confidence score: very high
-GALNT1,Golgi,Itzhak et al 2016 PMID: 27278775,confidence score: very high
-GALNT6,Golgi,Itzhak et al 2016 PMID: 27278775,confidence score: very high
-GALNT7,Golgi,Itzhak et al 2016 PMID: 27278775,confidence score: very high
-GLT8D2,Golgi,Itzhak et al 2016 PMID: 27278775,confidence score: very high
-GOLGB1,Golgi,Itzhak et al 2016 PMID: 27278775,confidence score: very high
-GOLIM4,Golgi,Itzhak et al 2016 PMID: 27278775,confidence score: very high
-BPNT2,Golgi,Itzhak et al 2016 PMID: 27278775,confidence score: very high
-MAN2A1,Golgi,Itzhak et al 2016 PMID: 27278775,confidence score: very high
-QSOX2,Golgi,Itzhak et al 2016 PMID: 27278775,confidence score: very high
-SLC30A5,Golgi,Itzhak et al 2016 PMID: 27278775,confidence score: very high
 ACP2,lysosome,Schroeder et al 2010 PMID: 20957757,meta-analysis
 ACP5,lysosome,Schroeder et al 2010 PMID: 20957757,meta-analysis
 AGA,lysosome,Schroeder et al 2010 PMID: 20957757,meta-analysis
-GET3,lysosome,Schroeder et al 2010 PMID: 20957757,meta-analysis
+ARSA,lysosome,Schroeder et al 2010 PMID: 20957757,meta-analysis
 ARSB,lysosome,Schroeder et al 2010 PMID: 20957757,meta-analysis
 ARSG,lysosome,Schroeder et al 2010 PMID: 20957757,meta-analysis
 ASAH1,lysosome,Schroeder et al 2010 PMID: 20957757,meta-analysis
-CLN5,lysosome,Schroeder et al 2010 PMID: 20957757,meta-analysis
+CD63,lysosome,Schroeder et al 2010 PMID: 20957757,meta-analysis
+CLN3,lysosome,Schroeder et al 2010 PMID: 20957757,meta-analysis
 CREG1,lysosome,Schroeder et al 2010 PMID: 20957757,meta-analysis
 CTBS,lysosome,Schroeder et al 2010 PMID: 20957757,meta-analysis
 CTSA,lysosome,Schroeder et al 2010 PMID: 20957757,meta-analysis
@@ -594,6 +1042,8 @@ IDS,lysosome,Schroeder et al 2010 PMID: 20957757,meta-analysis
 IDUA,lysosome,Schroeder et al 2010 PMID: 20957757,meta-analysis
 IFI30,lysosome,Schroeder et al 2010 PMID: 20957757,meta-analysis
 IL4I1,lysosome,Schroeder et al 2010 PMID: 20957757,meta-analysis
+LAMP1,lysosome,Schroeder et al 2010 PMID: 20957757,meta-analysis
+LAMP2,lysosome,Schroeder et al 2010 PMID: 20957757,meta-analysis
 LGMN,lysosome,Schroeder et al 2010 PMID: 20957757,meta-analysis
 LIPA,lysosome,Schroeder et al 2010 PMID: 20957757,meta-analysis
 MAN2B1,lysosome,Schroeder et al 2010 PMID: 20957757,meta-analysis
@@ -615,9 +1065,8 @@ SCPEP1,lysosome,Schroeder et al 2010 PMID: 20957757,meta-analysis
 SGSH,lysosome,Schroeder et al 2010 PMID: 20957757,meta-analysis
 SIAE,lysosome,Schroeder et al 2010 PMID: 20957757,meta-analysis
 SMPD1,lysosome,Schroeder et al 2010 PMID: 20957757,meta-analysis
+TMEM192,lysosome,Schroeder et al 2010 PMID: 20957757,meta-analysis
 TPP1,lysosome,Schroeder et al 2010 PMID: 20957757,meta-analysis
-TOMM20,mitochondria,manual curation,TOMM complex subunit ommited in mitocarta
-TOMM70,mitochondria,manual curation,TOMM complex subunit ommited in mitocarta
 ABCB7,mitochondria,MitoCarta 3.0 PMID: 33174596,using score >20; meta-analysis
 ABCB8,mitochondria,MitoCarta 3.0 PMID: 33174596,using score >20; meta-analysis
 ABHD11,mitochondria,MitoCarta 3.0 PMID: 33174596,using score >20; meta-analysis
@@ -702,12 +1151,12 @@ CRAT,mitochondria,MitoCarta 3.0 PMID: 33174596,using score >20; meta-analysis
 CS,mitochondria,MitoCarta 3.0 PMID: 33174596,using score >20; meta-analysis
 CYC1,mitochondria,MitoCarta 3.0 PMID: 33174596,using score >20; meta-analysis
 CYCS,mitochondria,MitoCarta 3.0 PMID: 33174596,using score >20; meta-analysis
-DLGAP3,mitochondria,MitoCarta 3.0 PMID: 33174596,using score >20; meta-analysis
 DBT,mitochondria,MitoCarta 3.0 PMID: 33174596,using score >20; meta-analysis
 DECR1,mitochondria,MitoCarta 3.0 PMID: 33174596,using score >20; meta-analysis
 DHTKD1,mitochondria,MitoCarta 3.0 PMID: 33174596,using score >20; meta-analysis
 DLAT,mitochondria,MitoCarta 3.0 PMID: 33174596,using score >20; meta-analysis
 DLD,mitochondria,MitoCarta 3.0 PMID: 33174596,using score >20; meta-analysis
+DLGAP3,mitochondria,MitoCarta 3.0 PMID: 33174596,using score >20; meta-analysis
 DLST,mitochondria,MitoCarta 3.0 PMID: 33174596,using score >20; meta-analysis
 DNAJA3,mitochondria,MitoCarta 3.0 PMID: 33174596,using score >20; meta-analysis
 DNAJC11,mitochondria,MitoCarta 3.0 PMID: 33174596,using score >20; meta-analysis
@@ -740,7 +1189,6 @@ GLS,mitochondria,MitoCarta 3.0 PMID: 33174596,using score >20; meta-analysis
 GPD2,mitochondria,MitoCarta 3.0 PMID: 33174596,using score >20; meta-analysis
 GRPEL1,mitochondria,MitoCarta 3.0 PMID: 33174596,using score >20; meta-analysis
 GUF1,mitochondria,MitoCarta 3.0 PMID: 33174596,using score >20; meta-analysis
-HADHA,mitochondria,MitoCarta 3.0 PMID: 33174596,using score >20; meta-analysis
 HADHA,mitochondria,MitoCarta 3.0 PMID: 33174596,using score >20; meta-analysis
 HAGH,mitochondria,MitoCarta 3.0 PMID: 33174596,using score >20; meta-analysis
 HCCS,mitochondria,MitoCarta 3.0 PMID: 33174596,using score >20; meta-analysis
@@ -792,7 +1240,6 @@ MRPL10,mitochondria,MitoCarta 3.0 PMID: 33174596,using score >20; meta-analysis
 MRPL11,mitochondria,MitoCarta 3.0 PMID: 33174596,using score >20; meta-analysis
 MRPL12,mitochondria,MitoCarta 3.0 PMID: 33174596,using score >20; meta-analysis
 MRPL13,mitochondria,MitoCarta 3.0 PMID: 33174596,using score >20; meta-analysis
-MRPL19,mitochondria,MitoCarta 3.0 PMID: 33174596,using score >20; meta-analysis
 MRPL16,mitochondria,MitoCarta 3.0 PMID: 33174596,using score >20; meta-analysis
 MRPL17,mitochondria,MitoCarta 3.0 PMID: 33174596,using score >20; meta-analysis
 MRPL19,mitochondria,MitoCarta 3.0 PMID: 33174596,using score >20; meta-analysis
@@ -829,7 +1276,6 @@ MRPS21,mitochondria,MitoCarta 3.0 PMID: 33174596,using score >20; meta-analysis
 MRPS23,mitochondria,MitoCarta 3.0 PMID: 33174596,using score >20; meta-analysis
 MRPS26,mitochondria,MitoCarta 3.0 PMID: 33174596,using score >20; meta-analysis
 MRPS27,mitochondria,MitoCarta 3.0 PMID: 33174596,using score >20; meta-analysis
-MRPS35,mitochondria,MitoCarta 3.0 PMID: 33174596,using score >20; meta-analysis
 MRPS34,mitochondria,MitoCarta 3.0 PMID: 33174596,using score >20; meta-analysis
 MRPS35,mitochondria,MitoCarta 3.0 PMID: 33174596,using score >20; meta-analysis
 MRPS5,mitochondria,MitoCarta 3.0 PMID: 33174596,using score >20; meta-analysis
@@ -886,10 +1332,10 @@ PCCB,mitochondria,MitoCarta 3.0 PMID: 33174596,using score >20; meta-analysis
 PDHA1,mitochondria,MitoCarta 3.0 PMID: 33174596,using score >20; meta-analysis
 PDHB,mitochondria,MitoCarta 3.0 PMID: 33174596,using score >20; meta-analysis
 PDHX,mitochondria,MitoCarta 3.0 PMID: 33174596,using score >20; meta-analysis
-PDPK1,mitochondria,MitoCarta 3.0 PMID: 33174596,using score >20; meta-analysis
 PDK2,mitochondria,MitoCarta 3.0 PMID: 33174596,using score >20; meta-analysis
 PDK3,mitochondria,MitoCarta 3.0 PMID: 33174596,using score >20; meta-analysis
 PDK4,mitochondria,MitoCarta 3.0 PMID: 33174596,using score >20; meta-analysis
+PDPK1,mitochondria,MitoCarta 3.0 PMID: 33174596,using score >20; meta-analysis
 PHB1,mitochondria,MitoCarta 3.0 PMID: 33174596,using score >20; meta-analysis
 PHB2,mitochondria,MitoCarta 3.0 PMID: 33174596,using score >20; meta-analysis
 PITRM1,mitochondria,MitoCarta 3.0 PMID: 33174596,using score >20; meta-analysis
@@ -948,10 +1394,12 @@ TIMM50,mitochondria,MitoCarta 3.0 PMID: 33174596,using score >20; meta-analysis
 TIMM8B,mitochondria,MitoCarta 3.0 PMID: 33174596,using score >20; meta-analysis
 TIMM9,mitochondria,MitoCarta 3.0 PMID: 33174596,using score >20; meta-analysis
 TMEM126A,mitochondria,MitoCarta 3.0 PMID: 33174596,using score >20; meta-analysis
+TOMM20,mitochondria,manual curation,TOMM complex subunit ommited in mitocarta
 TOMM22,mitochondria,MitoCarta 3.0 PMID: 33174596,using score >20; meta-analysis
 TOMM40,mitochondria,MitoCarta 3.0 PMID: 33174596,using score >20; meta-analysis
 TOMM40L,mitochondria,MitoCarta 3.0 PMID: 33174596,using score >20; meta-analysis
 TOMM7,mitochondria,MitoCarta 3.0 PMID: 33174596,using score >20; meta-analysis
+TOMM70,mitochondria,manual curation,TOMM complex subunit ommited in mitocarta
 TRAP1,mitochondria,MitoCarta 3.0 PMID: 33174596,using score >20; meta-analysis
 TSFM,mitochondria,MitoCarta 3.0 PMID: 33174596,using score >20; meta-analysis
 TXN2,mitochondria,MitoCarta 3.0 PMID: 33174596,using score >20; meta-analysis
@@ -989,6 +1437,502 @@ NUP85,nuclear_pore,manual curation,nucleoporin
 NUP88,nuclear_pore,manual curation,nucleoporin
 NUP93,nuclear_pore,manual curation,nucleoporin
 NUP98,nuclear_pore,manual curation,nucleoporin
+ABRAXAS1,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+ACIN1,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+ADAR,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+ADNP,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+AEN,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+AHDC1,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+ANKRD11,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+ARID1A,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+ARID1B,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+ARID4A,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+ARID5B,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+ARL6IP6,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+ASB7,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+ASXL2,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+ATAD2B,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+ATAD5,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+ATF3,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+ATF4,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+ATRX,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+ATXN1,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+ATXN7,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+ATXN7L3,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+BAP1,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+BAP18,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+BARD1,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+BARX1,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+BAZ1A,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+BAZ2A,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+BAZ2B,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+BBX,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+BCL6,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+BCL7A,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+BCL7B,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+BCL7C,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+BCLAF3,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+BDP1,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+BEND3,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+BHLHE40,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+BICRAL,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+BMAL1,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+BMI1,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+BNC2,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+BRD1,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+BRD3,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+BRD4,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+BRD7,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+BRD8,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+BRF2,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+BRMS1,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+BRMS1L,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+BRPF1,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+BRWD1,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+BRWD3,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+C14orf93,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+C19orf47,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+C1orf131,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+C5orf24,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+CALD1,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+CBX6,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+CCDC71,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+CCDC71L,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+CCNC,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+CCNE2,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+CCNQ,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+CDCA2,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+CDCA5,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+CDCA7,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+CDCA7L,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+CDK10,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+CDK2AP1,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+CDYL,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+CDYL2,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+CEBPB,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+CEBPD,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+CEBPG,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+CEBPZ,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+CENPB,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+CENPC,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+CENPL,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+CENPN,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+CENPO,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+CENPP,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+CENPQ,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+CENPV,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+CENPW,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+CHD2,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+CHD7,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+CHD8,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+CLK1,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+CLK4,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+CREM,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+CTCF,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+CTDSPL2,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+CXXC5,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+DDX51,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+DEAF1,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+DEDD,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+DHX33,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+DLX1,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+DLX2,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+DLX3,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+DNMT3A,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+DNMT3B,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+DPF1,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+DUSP14,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+E2F7,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+EHMT1,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+ELF3,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+ELK1,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+ELL2,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+EP400,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+EP400P1,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+EPC1,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+EPC2,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+EPOP,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+ERG,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+ESRRA,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+FAM76A,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+FBLL1,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+FBXL19,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+FBXO28,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+FCF1,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+FLYWCH1,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+FOSB,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+FOSL2,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+FOXA1,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+FOXC1,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+FOXC2,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+G2E3,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+GATA2,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+GATA6,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+GATAD1,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+GATAD2A,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+GLIS2,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+GLYR1,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+GMCL1,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+GMEB2,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+GPANK1,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+GPATCH1,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+GZF1,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+H2AC11,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+H2BC4,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+HASPIN,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+HBP1,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+HCFC2,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+HES1,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+HIRA,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+HMGA1,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+HMGN3,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+HMGN4,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+HMGXB3,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+HMGXB4,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+HNRNPC,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+HOXB7,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+HOXC11,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+HOXC13,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+HOXC9,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+HOXD11,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+IKZF5,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+ING2,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+ING3,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+INO80,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+INO80B,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+INTS10,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+INTS15,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+INTS5,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+INTS6,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+INTS8,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+IRF2,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+ITGB3BP,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+JARID2,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+JAZF1,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+JDP2,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+JRKL,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+JUN,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+JUNB,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+KANSL1,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+KANSL3,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+KAT14,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+KAT5,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+KDM2A,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+KDM4D,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+KDM5A,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+KIAA1586,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+KIF18B,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+KLF10,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+KLF12,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+KLF5,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+KMT2B,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+KMT2D,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+KMT5B,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+KMT5C,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+LCOR,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+LCORL,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+LIN52,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+LIN54,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+LRWD1,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+MAFF,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+MAFG,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+MAFK,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+MAK16,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+MATR3,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+MAU2,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+MBD1,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+MBD2,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+MBD6,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+MBIP,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+MBTD1,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+MBTPS2,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+MDC1,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+MECP2,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+MED13L,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+MED19,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+MED28,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+MED7,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+MED9,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+MEN1,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+MEOX1,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+MFSD9,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+MIDEAS,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+MIER2,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+MIS18BP1,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+MKI67,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+MLH3,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+MLLT6,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+MND1,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+MPND,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+MSL1,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+MSL2,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+MSL3,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+MTA1,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+MTF2,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+MYBL1,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+MYBL2,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+MYNN,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+MYSM1,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+N4BP2L2,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+NAIF1,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+NCOA6,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+NEMP1,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+NFE2L2,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+NFIB,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+NFIL3,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+NFIX,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+NFKBIL1,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+NOL10,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+NR1H2,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+NR2C2,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+NRM,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+NSD1,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+NSD2,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+NSD3,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+NSMCE3,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+NUMA1,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+NUSAP1,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+ORC1,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+OTX1,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+PALB2,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+PASD1,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+PATZ1,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+PAX6,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+PBRM1,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+PCGF2,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+PDCD11,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+PES1,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+PGBD3,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+PHC1,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+PHC2,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+PHC3,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+PHF1,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+PHF12,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+PHF14,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+PHF2,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+PHF20,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+PHF20L1,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+PHIP,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+PIAS4,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+PKNOX1,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+POGZ,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+POM121C,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+PPHLN1,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+PPP1R26,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+PRC1,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+PRDM10,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+PRPF40A,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+PRR12,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+PRR14,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+PRR3,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+PRRX2,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+PSIP1,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+PWWP2A,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+PWWP3A,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+QKI,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+RAD54L,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+RAI1,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+RARA,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+RARG,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+RBBP8,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+RBM10,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+RBM15B,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+RBM45,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+RESF1,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+REST,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+REXO1,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+RFX7,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+RGPD1,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+RIOX1,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+RLF,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+RNF6,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+RNPC3,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+RREB1,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+RSBN1,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+SAP130,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+SAP30L,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+SCMH1,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+SCML2,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+SELENOH,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+SENP1,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+SETD5,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+SGO1,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+SIRT6,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+SIX2,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+SLF2,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+SLX4,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+SMARCA1,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+SMARCA2,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+SMARCB1,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+SMARCC2,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+SMARCD1,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+SMARCD2,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+SMARCD3,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+SMC1B,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+SMC6,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+SNAI2,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+SNRNP35,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+SON,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+SOX12,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+SP110,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+SP2,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+SP4,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+SPIN2B,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+SPIN4,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+SPOP,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+SPOUT1,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+SPTY2D1,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+SRBD1,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+SS18L1,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+STAG1,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+STK35,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+SUPT20H,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+SUV39H1,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+SUV39H2,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+SYNE3,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+TADA2A,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+TADA2B,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+TAF1,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+TAF1A,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+TAF1D,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+TAF3,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+TAF4,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+TAF5,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+TAF9B,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+TASOR2,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+TASP1,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+TBRG1,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+TBX1,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+TCF7L2,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+TCOF1,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+TEAD1,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+TEAD3,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+TENT2,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+TET2,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+TFAP2C,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+THAP1,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+THRA,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+TICRR,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+TIGD2,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+TIGD5,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+TINF2,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+TMEM201,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+TMPO,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+TOP2B,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+TOR1AIP1,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+TRERF1,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+TRIB3,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+TRIM39,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+TRIP12,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+TRPS1,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+TRRAP,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+TSPYL2,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+TTC14,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+TTF1,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+UBN1,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+UBN2,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+UHRF2,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+URB1,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+USF1,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+USP36,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+USPL1,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+VPS72,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+WAC,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+WDR25,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+WIZ,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+XPC,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+YEATS2,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+YY2,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+ZBED4,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+ZBTB12,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+ZBTB14,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+ZBTB2,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+ZBTB20,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+ZBTB24,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+ZBTB38,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+ZBTB40,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+ZBTB43,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+ZBTB44,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+ZBTB45,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+ZBTB5,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+ZBTB7A,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+ZBTB7B,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+ZBTB8A,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+ZC3H10,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+ZC3H14,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+ZC3H3,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+ZCCHC7,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+ZCCHC9,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+ZFAT,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+ZFP1,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+ZFP64,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+ZFX,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+ZHX1,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+ZHX2,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+ZIC2,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+ZKSCAN4,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+ZMAT5,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+ZMYM6,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+ZMYND11,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+ZMYND8,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+ZNF121,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+ZNF142,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+ZNF146,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+ZNF174,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+ZNF184,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+ZNF189,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+ZNF219,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+ZNF263,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+ZNF276,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+ZNF28,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+ZNF280C,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+ZNF304,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+ZNF317,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+ZNF319,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+ZNF33A,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+ZNF347,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+ZNF362,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+ZNF367,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+ZNF384,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+ZNF385A,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+ZNF444,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+ZNF445,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+ZNF446,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+ZNF48,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+ZNF496,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+ZNF512,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+ZNF512B,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+ZNF518A,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+ZNF532,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+ZNF566,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+ZNF581,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+ZNF584,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+ZNF592,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+ZNF609,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+ZNF639,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+ZNF644,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+ZNF652,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+ZNF654,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+ZNF668,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+ZNF687,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+ZNF689,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+ZNF691,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+ZNF692,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+ZNF7,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+ZNF707,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+ZNF740,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+ZNF746,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+ZNF768,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+ZNF770,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+ZNF865,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+ZNF888,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+ZSCAN12,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+ZSCAN21,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+ZSCAN25,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+ZSCAN26,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+ZSCAN29,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+ZXDC,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
+ZZZ3,nucleus,100% nuclear in Itzhak et al 2016 PMID: 27278775,
 DCP1A,p-body,Xing et al 2020 PMID: 32553117,from yeast homolog: Dcp1 (Dcp1-Dcp2 complex)
 DCP1B,p-body,Xing et al 2020 PMID: 32553117,from yeast homolog: Dcp1 (Dcp1-Dcp2 complex)
 DCP2,p-body,Xing et al 2020 PMID: 32553117,from yeast homolog: Dcp2  (Dcp1-Dcp2 complex)
@@ -1012,11 +1956,10 @@ ACSL1,peroxisome,Yifrach et al 2018 PMID:  30378018,using score >18; meta-analys
 AGPS,peroxisome,Yifrach et al 2018 PMID:  30378018,using score >18; meta-analysis
 AMACR,peroxisome,Yifrach et al 2018 PMID:  30378018,using score >18; meta-analysis
 BAAT,peroxisome,Yifrach et al 2018 PMID:  30378018,using score >18; meta-analysis
-CRAT,peroxisome,Yifrach et al 2018 PMID:  30378018,using score >18; meta-analysis
 CROT,peroxisome,Yifrach et al 2018 PMID:  30378018,using score >18; meta-analysis
+CTDSP2,peroxisome,Yifrach et al 2018 PMID:  30378018,using score >18; meta-analysis
 DAO,peroxisome,Yifrach et al 2018 PMID:  30378018,using score >18; meta-analysis
 DHRS4,peroxisome,Yifrach et al 2018 PMID:  30378018,using score >18; meta-analysis
-ECH1,peroxisome,Yifrach et al 2018 PMID:  30378018,using score >18; meta-analysis
 EHHADH,peroxisome,Yifrach et al 2018 PMID:  30378018,using score >18; meta-analysis
 EPHX2,peroxisome,Yifrach et al 2018 PMID:  30378018,using score >18; meta-analysis
 GSTK1,peroxisome,Yifrach et al 2018 PMID:  30378018,using score >18; meta-analysis
@@ -1037,9 +1980,7 @@ PEX6,peroxisome,Yifrach et al 2018 PMID:  30378018,using score >18; meta-analysi
 PIPOX,peroxisome,Yifrach et al 2018 PMID:  30378018,using score >18; meta-analysis
 PRDX5,peroxisome,Yifrach et al 2018 PMID:  30378018,using score >18; meta-analysis
 PXMP2,peroxisome,Yifrach et al 2018 PMID:  30378018,using score >18; meta-analysis
-CTDSP2,peroxisome,Yifrach et al 2018 PMID:  30378018,using score >18; meta-analysis
 SLC25A17,peroxisome,Yifrach et al 2018 PMID:  30378018,using score >18; meta-analysis
-SLC27A2,peroxisome,Yifrach et al 2018 PMID:  30378018,using score >18; meta-analysis
 TMEM135,peroxisome,Yifrach et al 2018 PMID:  30378018,using score >18; meta-analysis
 ABCB1,plasma membrane,Itzhak et al 2016 PMID: 27278775,confidence score: very high
 ABCC2,plasma membrane,Itzhak et al 2016 PMID: 27278775,confidence score: very high
@@ -1049,12 +1990,13 @@ ABCG2,plasma membrane,Itzhak et al 2016 PMID: 27278775,confidence score: very hi
 ADAM17,plasma membrane,Itzhak et al 2016 PMID: 27278775,confidence score: very high
 ADCY6,plasma membrane,Itzhak et al 2016 PMID: 27278775,confidence score: very high
 ADCY9,plasma membrane,Itzhak et al 2016 PMID: 27278775,confidence score: very high
+ADGRE5,plasma membrane,Itzhak et al 2016 PMID: 27278775,confidence score: very high
 AIDA,plasma membrane,Itzhak et al 2016 PMID: 27278775,confidence score: very high
 ALDH3B1,plasma membrane,Itzhak et al 2016 PMID: 27278775,confidence score: very high
 ALDOC,plasma membrane,Itzhak et al 2016 PMID: 27278775,confidence score: very high
+ALPG,plasma membrane,Itzhak et al 2016 PMID: 27278775,confidence score: very high
 ALPI,plasma membrane,Itzhak et al 2016 PMID: 27278775,confidence score: very high
 ALPP,plasma membrane,Itzhak et al 2016 PMID: 27278775,confidence score: very high
-ALPG,plasma membrane,Itzhak et al 2016 PMID: 27278775,confidence score: very high
 ANO6,plasma membrane,Itzhak et al 2016 PMID: 27278775,confidence score: very high
 ANTXR1,plasma membrane,Itzhak et al 2016 PMID: 27278775,confidence score: very high
 ANXA2,plasma membrane,Itzhak et al 2016 PMID: 27278775,confidence score: very high
@@ -1080,18 +2022,17 @@ CD151,plasma membrane,Itzhak et al 2016 PMID: 27278775,confidence score: very hi
 CD276,plasma membrane,Itzhak et al 2016 PMID: 27278775,confidence score: very high
 CD44,plasma membrane,Itzhak et al 2016 PMID: 27278775,confidence score: very high
 CD46,plasma membrane,Itzhak et al 2016 PMID: 27278775,confidence score: very high
-CD46,plasma membrane,Itzhak et al 2016 PMID: 27278775,confidence score: very high
 CD47,plasma membrane,Itzhak et al 2016 PMID: 27278775,confidence score: very high
 CD55,plasma membrane,Itzhak et al 2016 PMID: 27278775,confidence score: very high
 CD58,plasma membrane,Itzhak et al 2016 PMID: 27278775,confidence score: very high
 CD59,plasma membrane,Itzhak et al 2016 PMID: 27278775,confidence score: very high
 CD81,plasma membrane,Itzhak et al 2016 PMID: 27278775,confidence score: very high
 CD9,plasma membrane,Itzhak et al 2016 PMID: 27278775,confidence score: very high
-ADGRE5,plasma membrane,Itzhak et al 2016 PMID: 27278775,confidence score: very high
 CD99,plasma membrane,Itzhak et al 2016 PMID: 27278775,confidence score: very high
 CD99L2,plasma membrane,Itzhak et al 2016 PMID: 27278775,confidence score: very high
 CDC42,plasma membrane,Itzhak et al 2016 PMID: 27278775,confidence score: very high
 CDH10,plasma membrane,Itzhak et al 2016 PMID: 27278775,confidence score: very high
+CEMIP2,plasma membrane,Itzhak et al 2016 PMID: 27278775,confidence score: very high
 CLDND1,plasma membrane,Itzhak et al 2016 PMID: 27278775,confidence score: very high
 CLIC4,plasma membrane,Itzhak et al 2016 PMID: 27278775,confidence score: very high
 CLMP,plasma membrane,Itzhak et al 2016 PMID: 27278775,confidence score: very high
@@ -1102,6 +2043,7 @@ CSNK1G3,plasma membrane,Itzhak et al 2016 PMID: 27278775,confidence score: very 
 CSPG4,plasma membrane,Itzhak et al 2016 PMID: 27278775,confidence score: very high
 CXADR,plasma membrane,Itzhak et al 2016 PMID: 27278775,confidence score: very high
 CXCR4,plasma membrane,Itzhak et al 2016 PMID: 27278775,confidence score: very high
+CYRIB,plasma membrane,Itzhak et al 2016 PMID: 27278775,confidence score: very high
 DAG1,plasma membrane,Itzhak et al 2016 PMID: 27278775,confidence score: very high
 DDAH1,plasma membrane,Itzhak et al 2016 PMID: 27278775,confidence score: very high
 DDR1,plasma membrane,Itzhak et al 2016 PMID: 27278775,confidence score: very high
@@ -1120,7 +2062,7 @@ EPS15,plasma membrane,Itzhak et al 2016 PMID: 27278775,confidence score: very hi
 ERBB2,plasma membrane,Itzhak et al 2016 PMID: 27278775,confidence score: very high
 F11R,plasma membrane,Itzhak et al 2016 PMID: 27278775,confidence score: very high
 F3,plasma membrane,Itzhak et al 2016 PMID: 27278775,confidence score: very high
-CYRIB,plasma membrane,Itzhak et al 2016 PMID: 27278775,confidence score: very high
+FAM234A,plasma membrane,Itzhak et al 2016 PMID: 27278775,confidence score: very high
 FARP1,plasma membrane,Itzhak et al 2016 PMID: 27278775,confidence score: very high
 FAS,plasma membrane,Itzhak et al 2016 PMID: 27278775,confidence score: very high
 FIBP,plasma membrane,Itzhak et al 2016 PMID: 27278775,confidence score: very high
@@ -1144,14 +2086,12 @@ GOLGA7,plasma membrane,Itzhak et al 2016 PMID: 27278775,confidence score: very h
 GPC1,plasma membrane,Itzhak et al 2016 PMID: 27278775,confidence score: very high
 GPRIN1,plasma membrane,Itzhak et al 2016 PMID: 27278775,confidence score: very high
 HLA-A,plasma membrane,Itzhak et al 2016 PMID: 27278775,confidence score: very high
-HLA-A,plasma membrane,Itzhak et al 2016 PMID: 27278775,confidence score: very high
 ICAM1,plasma membrane,Itzhak et al 2016 PMID: 27278775,confidence score: very high
 IGF1R,plasma membrane,Itzhak et al 2016 PMID: 27278775,confidence score: very high
 IGSF3,plasma membrane,Itzhak et al 2016 PMID: 27278775,confidence score: very high
 IGSF8,plasma membrane,Itzhak et al 2016 PMID: 27278775,confidence score: very high
 IL1RAP,plasma membrane,Itzhak et al 2016 PMID: 27278775,confidence score: very high
 INSR,plasma membrane,Itzhak et al 2016 PMID: 27278775,confidence score: very high
-FAM234A,plasma membrane,Itzhak et al 2016 PMID: 27278775,confidence score: very high
 ITGA1,plasma membrane,Itzhak et al 2016 PMID: 27278775,confidence score: very high
 ITGA2,plasma membrane,Itzhak et al 2016 PMID: 27278775,confidence score: very high
 ITGA3,plasma membrane,Itzhak et al 2016 PMID: 27278775,confidence score: very high
@@ -1174,8 +2114,8 @@ LSR,plasma membrane,Itzhak et al 2016 PMID: 27278775,confidence score: very high
 LYPD3,plasma membrane,Itzhak et al 2016 PMID: 27278775,confidence score: very high
 MARCKSL1,plasma membrane,Itzhak et al 2016 PMID: 27278775,confidence score: very high
 MCAM,plasma membrane,Itzhak et al 2016 PMID: 27278775,confidence score: very high
-MET,plasma membrane,Itzhak et al 2016 PMID: 27278775,confidence score: very high
 MELTF,plasma membrane,Itzhak et al 2016 PMID: 27278775,confidence score: very high
+MET,plasma membrane,Itzhak et al 2016 PMID: 27278775,confidence score: very high
 MMP15,plasma membrane,Itzhak et al 2016 PMID: 27278775,confidence score: very high
 MPHOSPH6,plasma membrane,Itzhak et al 2016 PMID: 27278775,confidence score: very high
 MPZL1,plasma membrane,Itzhak et al 2016 PMID: 27278775,confidence score: very high
@@ -1184,6 +2124,7 @@ MSN,plasma membrane,Itzhak et al 2016 PMID: 27278775,confidence score: very high
 MYO1B,plasma membrane,Itzhak et al 2016 PMID: 27278775,confidence score: very high
 MYO1E,plasma membrane,Itzhak et al 2016 PMID: 27278775,confidence score: very high
 NF2,plasma membrane,Itzhak et al 2016 PMID: 27278775,confidence score: very high
+NHERF1,plasma membrane,Itzhak et al 2016 PMID: 27278775,confidence score: very high
 NPR3,plasma membrane,Itzhak et al 2016 PMID: 27278775,confidence score: very high
 NPTN,plasma membrane,Itzhak et al 2016 PMID: 27278775,confidence score: very high
 NRAS,plasma membrane,Itzhak et al 2016 PMID: 27278775,confidence score: very high
@@ -1257,7 +2198,6 @@ SLC5A6,plasma membrane,Itzhak et al 2016 PMID: 27278775,confidence score: very h
 SLC6A9,plasma membrane,Itzhak et al 2016 PMID: 27278775,confidence score: very high
 SLC7A11,plasma membrane,Itzhak et al 2016 PMID: 27278775,confidence score: very high
 SLC7A5,plasma membrane,Itzhak et al 2016 PMID: 27278775,confidence score: very high
-NHERF1,plasma membrane,Itzhak et al 2016 PMID: 27278775,confidence score: very high
 SLCO4A1,plasma membrane,Itzhak et al 2016 PMID: 27278775,confidence score: very high
 SNAP23,plasma membrane,Itzhak et al 2016 PMID: 27278775,confidence score: very high
 SNAP25,plasma membrane,Itzhak et al 2016 PMID: 27278775,confidence score: very high
@@ -1275,7 +2215,6 @@ TENM3,plasma membrane,Itzhak et al 2016 PMID: 27278775,confidence score: very hi
 TGFBR3,plasma membrane,Itzhak et al 2016 PMID: 27278775,confidence score: very high
 TMBIM1,plasma membrane,Itzhak et al 2016 PMID: 27278775,confidence score: very high
 TMEM132A,plasma membrane,Itzhak et al 2016 PMID: 27278775,confidence score: very high
-CEMIP2,plasma membrane,Itzhak et al 2016 PMID: 27278775,confidence score: very high
 TNFRSF10A,plasma membrane,Itzhak et al 2016 PMID: 27278775,confidence score: very high
 TSPAN4,plasma membrane,Itzhak et al 2016 PMID: 27278775,confidence score: very high
 VANGL1,plasma membrane,Itzhak et al 2016 PMID: 27278775,confidence score: very high
@@ -1425,7 +2364,6 @@ RBMS1,stress granule,"Markmiller et al 2018 PMID: 29373831, Jain et al 2016 PMID
 RBMS2,stress granule,"Markmiller et al 2018 PMID: 29373831, Jain et al 2016 PMID: 26777405",present in both datasets (proteomics)
 RTCB,stress granule,"Markmiller et al 2018 PMID: 29373831, Jain et al 2016 PMID: 26777405",present in both datasets (proteomics)
 RTRAF,stress granule,"Markmiller et al 2018 PMID: 29373831, Jain et al 2016 PMID: 26777405",present in both datasets (proteomics)
-SEC24C,stress granule,"Markmiller et al 2018 PMID: 29373831, Jain et al 2016 PMID: 26777405",present in both datasets (proteomics)
 SRI,stress granule,"Markmiller et al 2018 PMID: 29373831, Jain et al 2016 PMID: 26777405",present in both datasets (proteomics)
 SRSF1,stress granule,"Markmiller et al 2018 PMID: 29373831, Jain et al 2016 PMID: 26777405",present in both datasets (proteomics)
 STAU1,stress granule,"Markmiller et al 2018 PMID: 29373831, Jain et al 2016 PMID: 26777405",present in both datasets (proteomics)
@@ -1438,9 +2376,7 @@ TNPO1,stress granule,"Markmiller et al 2018 PMID: 29373831, Jain et al 2016 PMID
 TRIM25,stress granule,"Markmiller et al 2018 PMID: 29373831, Jain et al 2016 PMID: 26777405",present in both datasets (proteomics)
 UBAP2,stress granule,"Markmiller et al 2018 PMID: 29373831, Jain et al 2016 PMID: 26777405",present in both datasets (proteomics)
 UBAP2L,stress granule,"Markmiller et al 2018 PMID: 29373831, Jain et al 2016 PMID: 26777405",present in both datasets (proteomics)
-UPF1,stress granule,"Markmiller et al 2018 PMID: 29373831, Jain et al 2016 PMID: 26777405",present in both datasets (proteomics)
 USP10,stress granule,"Markmiller et al 2018 PMID: 29373831, Jain et al 2016 PMID: 26777405",present in both datasets (proteomics)
-XRN1,stress granule,"Markmiller et al 2018 PMID: 29373831, Jain et al 2016 PMID: 26777405",present in both datasets (proteomics)
 YBX1,stress granule,"Markmiller et al 2018 PMID: 29373831, Jain et al 2016 PMID: 26777405",present in both datasets (proteomics)
 YBX3,stress granule,"Markmiller et al 2018 PMID: 29373831, Jain et al 2016 PMID: 26777405",present in both datasets (proteomics)
 YTHDF1,stress granule,"Markmiller et al 2018 PMID: 29373831, Jain et al 2016 PMID: 26777405",present in both datasets (proteomics)
