@@ -1,6 +1,18 @@
 data/MaxQuant/proteinGroups_2023-02-08_big_quant.txt
 notebooks/Fig3/panels_C_D/compare_Jaccard.ipynb
 
+# multi-localization related
+data/external/DIA-DOM-2023.csv
+data/external/hyperLOPITU2OS2017.csv
+data/external/HPA_v23_subcellular_location.tsv
+data/external/Human_mcs_file.txt
+notebooks/Supplementary_figures/Suppl_fig4/panel_B/multilocalization_analysis.ipynb
+
+# enrichment related
+notebooks/enrichment/enrichment_analyses/enrichment_batchness.ipynb
+notebooks/enrichment/enrichment_analyses/enrichment_entropy.ipynb
+
+
 output/
 
 !**notebooks/enrichment/output/enrichment_and_volcano_tables/
