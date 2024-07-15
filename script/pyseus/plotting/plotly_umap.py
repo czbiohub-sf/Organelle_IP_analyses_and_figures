@@ -47,7 +47,7 @@ def interaction_umap(
         matrix, node_name, cluster, x='umap_1', y='umap_2', opacity=0.7,
         width=800, height=600, highlight=None, unlabelled_color='#D0D3D4',
         unlabelled_opacity=0.1, hover_data=None, unlabelled_hover=True, search=False,
-        categorical=True, na_in_data=True, highlight_color="red", pointsize=6):
+        categorical=True, na_in_data=True, highlight_color="red", pointsize=6, custom_colors = []):
 
     matrix = matrix.copy()
     matrix.reset_index(inplace=True, drop=False)
@@ -121,7 +121,7 @@ def interaction_umap(
 
         #ColPalDuo = px.colors.qualitative.D3 + [Lp[1] , Lp[4] , Dp[5] , Lp[17] , Dp[14] , Dp[7] , Lp[22], Ap[24] , Ap[10], Ap[0], Lp[0], Dp[9], Dp[6] ]
         # Duo: expand the color palette # for more options, see https://plotly.com/python/discrete-color/
-        ColPalDuo = px.colors.qualitative.Plotly + px.colors.qualitative.D3 + px.colors.qualitative.G10 + px.colors.qualitative.T10
+        ColPalDuo = custom_colors + px.colors.qualitative.Plotly + px.colors.qualitative.D3 + px.colors.qualitative.G10 + px.colors.qualitative.T10
         to_remove = ["#D62728", "#EF553B"]
         ColPalDuo = [x for x in ColPalDuo if x not in to_remove]
 
