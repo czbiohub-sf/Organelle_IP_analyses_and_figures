@@ -2,6 +2,7 @@ name: OrgIP
 channels:
   - anaconda
   - nodefaults
+  - conda-forge
 dependencies:
   - attrs=22.1.0
   - cffi=1.15.1
@@ -30,6 +31,10 @@ dependencies:
   - typing-extensions=4.4.0
   - typing_extensions=4.4.0
   - tzdata=2022g
+  - pydantic
+  - pytomlpp
+  - pyyaml
+  - appdirs
   - pip:
       - anndata==0.8.0
       - bokeh==2.4.3
