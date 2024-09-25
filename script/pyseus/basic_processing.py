@@ -279,8 +279,8 @@ class RawTables:
         self.preimpute_table = filtered_df
 
 
-    def remove_invalid_rows_custom(self, mygroup_list, verbose=True):
-        """Remove rows that do not have at least one group that has values in at least *two* replicates
+    def remove_invalid_rows_custom(self, mygroup_list=[], n=2, verbose=True):
+        """Remove rows that do not have at least one group that has less than n invalid values in all replicates
            Specify a custom group list
            This function udates the grouped_table, and does not produce preimputa_table
            This means that remove_invalid_rows() cannot be skipped after this method
@@ -298,6 +298,7 @@ class RawTables:
 
         # Get a list of all groups in the df
         group_list = list(set([col[0] for col in list(grouped) if col[0] != 'metadata']))
+        mygroup_list = group_list if len(mygroup_list) == 0 else mygroup_list
 
         for g in mygroup_list:
             if g not in group_list:
@@ -313,7 +314,7 @@ class RawTables:
         # loop through each group, and filter rows that have valid values
         for group in group_list:
             # filter all rows that qualify as all triplicates having values
-            filtered = filtered[(filtered[group] == True).sum(axis=1) >= 2 ] # if a row has two or more nan values in a group, keep it in to to_delete list
+            filtered = filtered[(filtered[group] == True).sum(axis=1) >= n ] # if a row has n or more nan values in a group, keep it in to to_delete list
 
         # a list containing all the rows to delete
         del_list = list(filtered.index)
@@ -328,7 +329,7 @@ class RawTables:
                 + str(unfiltered) + " rows remaining.")
 
         self.grouped_table = filtered_df
-
+        self.preimpute_table = filtered_df
 
     def bait_impute(self, distance=1.8, width=0.3, local=True):
         """

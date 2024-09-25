@@ -20,8 +20,8 @@ For a distinct run, the run timestamp has to be set first by running the `0.Set_
 
 If reproducing figures from frozen imputed tables, skip the `enrichment` notebooks and start with `Fig1` and proceed in order.
 
-### Supplementary figure 4 panel E
-Supplementary figure 4 panel E uses a separate conda environment specification.
+### Supplementary figure 6 panel B
+Supplementary figure 6 panel B uses a separate conda environment specification.
 ```sh
 conda env create -n xgb2 -f notebooks/Supplementary_figures/Suppl_fig4/panel_B/environment.yml
 conda activate xgb2
