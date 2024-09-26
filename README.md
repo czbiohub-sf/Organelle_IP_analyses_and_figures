@@ -20,10 +20,10 @@ For a distinct run, the run timestamp has to be set first by running the `0.Set_
 
 If reproducing figures from frozen imputed tables, skip the `enrichment` notebooks and start with `Fig1` and proceed in order.
 
-### Supplementary figure 4 panel E
-Supplementary figure 4 panel E uses a separate conda environment specification.
+### Supplementary figure 6 panel B
+Supplementary figure 6 panel B uses a separate conda environment specification.
 ```sh
-conda env create -n xgb2 -f notebooks/Supplementary_figures/Suppl_fig4/panel_B/environment.yml
+conda env create -n xgb2 -f notebooks/Supplementary_figures/Suppl_fig6/panel_B/environment.yml
 conda activate xgb2
 ```
 
@@ -59,93 +59,122 @@ notebooks
 │   └── panel_L
 │       ├── Fig1_L_heatmap.ipynb
 │       └── output
-|           └── ..
+│           └── ..
 ├── Fig2
 │   ├── panel_B
 │   │   ├── Fig2_B_heatmap.ipynb
 │   │   └── output
-|   |       └── ..
+│   │       └── ..
 │   ├── panel_C
 │   │   ├── Fig2_C_consensus_annotation.ipynb
 │   │   └── output
-|   |       └── ..
+│   │       └── ..
 │   └── panel_D
 │       ├── Fig2_D_umap.ipynb
 │       └── output
-|           └── ..
+│           └── ..
 ├── Fig3
 │   ├── panels_A_B_F
-│   │   ├── Fig3_A_B_F_local_k-NN_network.ipynb
-│   │   └── output
-|   |       └── ..
+│   │   ├── Fig3_A_B_F_local_k-NN_network.ipynb
+│   │   └── output
+│   |       └── ..
 │   └── panels_C_D
-│      ├── Fig3_C_D_cluster_connectivity_and_Jaccard_coeff.ipynb
-│      └── output
-|          └── ..
+│       ├── Fig3_C_D_cluster_connectivity_and_Jaccard_coeff.ipynb
+│       └── output
+│           └── ..
 ├── Fig4
 │   └── panel_D
 │       └── Please_read.txt
 ├── Fig5
-|   ├── 0.Set_fig5_timestamp.ipynb
+│   ├── 0.Set_fig5_timestamp.ipynb
 │   ├── panel_A
 │   │   ├── 1.infected_enrichment
-|   |   |   ├── 1.QC_filter_and_impute.ipynb
-|   |   |   ├── 2.Batch_selection.ipynb
-|   |   |   ├── 3.correlation_filter.ipynb
-|   |   |   ├── 4.NOC_processing.ipynb
-|   |   |   └── output
-|   |   |       └── ..
+│   │   │   ├── 1.QC_filter_and_impute.ipynb
+│   │   │   ├── 2.Batch_selection.ipynb
+│   │   │   ├── 3.correlation_filter.ipynb
+│   │   │   ├── 4.NOC_processing.ipynb
+│   │   │   └── output
+│   │   │       └── ..
 │   │   ├── 2.control_enrichment
-|   |   |   ├── 1.QC_filter_and_impute.ipynb
-|   |   |   ├── 2.Batch_selection.ipynb
-|   |   |   ├── 3.correlation_filter.ipynb
-|   |   |   ├── 4.NOC_processing.ipynb
-|   |   |   └── output
-|   |   |       └── ..
+│   │   │   ├── 1.QC_filter_and_impute.ipynb
+│   │   │   ├── 2.Batch_selection.ipynb
+│   │   │   ├── 3.correlation_filter.ipynb
+│   │   │   ├── 4.NOC_processing.ipynb
+│   │   │   └── output
+│   │   │       └── ..
 │   │   └── 3.aligned_umap
 │   │       ├── Fig5_A_aligned_umap.ipynb
 │   │       └── output
-|   |           └── ..
+│   │           └── ..
 │   ├── panel_B
 │   │   ├── Fig5_B_remodeling_score.ipynb
 │   │   └── output
-|   |       └── ..
+│   │       └── ..
 │   ├── panel_C
 │   │   ├── Fig5_C_umap_with_leiden_labels.ipynb
 │   │   └── output
-|   |       └── ..
+│   │       └── ..
 │   ├── panel_D
 │   │   ├── Fig5_D_trajectory.ipynb
 │   │   └── output
-|   |       └── ..
+│   │       └── ..
 │   └── panel_E
-│       ├── Fig5_E_Sankey_plot.ipynb
-│       └── output
-|           └── ..
-├── Fig6
-│   └── ..
-|
-└── Supplementary_figures
-    ├── Suppl_fig1
-    |   └── ..
-    ├── Suppl_fig2
-    |   ├── Suppl_fig2.ipynb
-    │   └── output
-    |       └── ..
-    ├── Suppl_fig3
-    |   ├── panel_A
-    |   |   ├── Suppl_fig3_A_IP_correlation_vs_interaction_stoi.ipynb
-    |   |   └── output
-    |   |       └── ..
-    |   └── panel_B
-    |       ├── Suppl_fig3_B_tenary_plots.ipynb
-    |       └── output
-    |           └── ..
-    ├── Suppl_fig4
-    |   └── panel_B
-    |       ├── Suppl_fig4_B_XGBoost_classifier.ipynb
-    |       └── output
-    |           └── ..
+│       ├── Fig5_E_Sankey_plot.ipynb
+│       └── output
+│           └── ..
+├── Supplementary_figures
+│   ├── Suppl_fig1
+│   │   ├── Suppl_fig1_marker_expression_in_cell_lines.ipynb
+│   │   └── output
+│   │       └── ..
+│   ├── Suppl_fig2
+│   │   └── README.md
+│   ├── Suppl_fig3
+│   │   ├── Suppl_fig3_faceted_volcano_plots.ipynb
+│   │   └── output
+│   │       └── ..
+│   ├── Suppl_fig5
+│   │   ├── panel_A
+│   │   │   ├── Suppl_fig5_A_IP_correlation_vs_interaction_stoi.ipynb
+│   │   │   └── output
+│   │   │       └── ..
+│   │   └── panel_B
+│   │       ├── Suppl_fig5_B_tenary_plots.ipynb
+│   │       └── output
+│   │           └── ..
+│   ├── Suppl_fig6
+│   │   ├── panel_B
+│   │   │   ├── Suppl_fig6_B_XGBoost_classifier.ipynb
+│   │   │   ├── environment.yml
+│   │   │   └── output
+│   │   │       └── ..
+│   │   ├── panel_C
+│   │   │   └── README.md
+│   │   └── panel_D
+│   │       ├── Suppl_fig6_D_sankey_and_confusion.ipynb
+│   │       └── output
+│   │           └── ..
+│   ├── Suppl_fig7
+│   │   └── panel_C
+│   │       └── upset_plot.ipynb
+│   ├── Suppl_fig8
+│   │   ├── panel_A
+│   │   │   ├── Suppl_fig8_A_external_UMAPs.ipynb
+│   │   │   ├── output
+│   │   │   │   └── ..
+│   │   │   └── process_external_spatial_datasets
+│   │   │       └── ..
+│   │   └── panel_B
+│   │       ├── Suppl_fig8_B_score_external_dataset.ipynb
+│   │       ├── Suppl_fig8_B_score_internal_dataset.ipynb
+│   │       ├── output
+│   │       │   └── ..
+│   │       └── process_internal_variant
+│   │           └── ..
+│   ├── Suppl_fig10
+│   │   └── README.md
+│   ├── Suppl_fig11
+|   |   └── ..
 ```
 
 
