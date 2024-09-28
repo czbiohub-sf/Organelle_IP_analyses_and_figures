@@ -57,7 +57,7 @@ notebooks
 |           └── ..
 ├── Fig1
 │   └── panel_L
-│       ├── Fig1_L_heatmap.ipynb
+│       ├── Fig1_L_enrichment_heatmap.ipynb
 │       └── output
 │           └── ..
 ├── Fig2
@@ -131,6 +131,10 @@ notebooks
 │   │   └── README.md
 │   ├── Suppl_fig3
 │   │   ├── Suppl_fig3_faceted_volcano_plots.ipynb
+│   │   └── output
+│   │       └── ..
+│   ├── Suppl_fig4
+│   │   ├── Suppl_fig4_enrichment_heatmap_all_IPs.ipynb
 │   │   └── output
 │   │       └── ..
 │   ├── Suppl_fig5
