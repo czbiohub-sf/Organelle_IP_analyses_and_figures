@@ -6,6 +6,7 @@ channels:
 dependencies:
   - attrs=22.1.0
   - cffi=1.15.1
+  - dask=2024.5.0
   - ipython=8.8.0
   - ipython_genutils=0.2.0
   - jupyter_client=7.4.8
