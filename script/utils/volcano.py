@@ -148,7 +148,7 @@ def load_volcano_data_v2(csv_path, label_path):
     #Gene_name_canonical = volcano_df[('metadata','Gene_name_canonical')]
     
     # rename columns
-    winning_pulldowns = ["12-YWHAQ","12-ACTB","09-ATG101","17-MAP1LC3B","11-CEP350","10-VPS35","07-CLTA","11-EEA1","05-NCLN",
+    winning_pulldowns = ["12-YWHAQ","06-YWHAB","12-ACTB","09-ATG101","17-MAP1LC3B","11-CEP350","10-VPS35","07-CLTA","11-EEA1","05-NCLN",
     "06-CCDC47","12-RTN4","12-SEC61B","02-COPE","03-SEC23A","11-SEC31A","14-RAB1A","07-COG8","11-GPR107",
     "13-GOLGA2","03-HSPA1B","09-HSP90AA1","12-LAMP1","14-RAB7A","12-TOMM20","02-DCP1A","05-EDC4","09-PEX3",
     "05-CAV1","17-ATP1B3","17-SLC30A2","09-PSMB7","13-RAB14","14-RAB11A","17-RPL36","17-CAPRIN1","17-G3BP1"]
@@ -161,6 +161,7 @@ def load_volcano_data_v2(csv_path, label_path):
     "stress granule","stress granule"]
 
     highlights = [["14-3-3_scaffold"],
+                  ["14-3-3_scaffold"],
                         ["actin_cytoskeleton"],
                         ["ER", "ERGIC"],
                         ["lysosome"],
