@@ -1,4 +1,5 @@
 data/MaxQuant/proteinGroups_2023-02-08_big_quant.txt
+data/MaxQuant/proteinGroups.txt
 notebooks/Fig3/panels_C_D/compare_Jaccard.ipynb
 
 # multi-localization related
