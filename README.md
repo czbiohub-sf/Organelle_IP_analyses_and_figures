@@ -125,63 +125,73 @@ notebooks
 │       ├── Fig5_E_Sankey_plot.ipynb
 │       └── output
 │           └── ..
-├── Supplementary_figures
-│   ├── Suppl_fig1
-│   │   ├── Suppl_fig1_marker_expression_in_cell_lines.ipynb
-│   │   └── output
-│   │       └── ..
-│   ├── Suppl_fig2
-│   │   └── README.md
-│   ├── Suppl_fig3
-│   │   ├── Suppl_fig3_faceted_volcano_plots.ipynb
-│   │   └── output
-│   │       └── ..
-│   ├── Suppl_fig4
-│   │   ├── Suppl_fig4_enrichment_heatmap_all_IPs.ipynb
-│   │   └── output
-│   │       └── ..
-│   ├── Suppl_fig5
-│   │   ├── panel_A
-│   │   │   ├── Suppl_fig5_A_IP_correlation_vs_interaction_stoi.ipynb
-│   │   │   └── output
-│   │   │       └── ..
-│   │   └── panel_B
-│   │       ├── Suppl_fig5_B_tenary_plots.ipynb
-│   │       └── output
-│   │           └── ..
-│   ├── Suppl_fig6
-│   │   ├── panel_B
-│   │   │   ├── Suppl_fig6_B_XGBoost_classifier.ipynb
-│   │   │   ├── environment.yml
-│   │   │   └── output
-│   │   │       └── ..
-│   │   ├── panel_C
-│   │   │   └── README.md
-│   │   └── panel_D
-│   │       ├── Suppl_fig6_D_sankey_and_confusion.ipynb
-│   │       └── output
-│   │           └── ..
-│   ├── Suppl_fig7
-│   │   └── panel_C
-│   │       └── upset_plot.ipynb
-│   ├── Suppl_fig8
-│   │   ├── panel_A
-│   │   │   ├── Suppl_fig8_A_external_UMAPs.ipynb
-│   │   │   ├── output
-│   │   │   │   └── ..
-│   │   │   └── process_external_spatial_datasets
-│   │   │       └── ..
-│   │   └── panel_B
-│   │       ├── Suppl_fig8_B_score_external_dataset.ipynb
-│   │       ├── Suppl_fig8_B_score_internal_dataset.ipynb
-│   │       ├── output
-│   │       │   └── ..
-│   │       └── process_internal_variant
-│   │           └── ..
-│   ├── Suppl_fig10
-│   │   └── README.md
-│   ├── Suppl_fig11
-|   |   └── ..
+└─── Supplementary_figures
+    ├── Suppl_fig1
+    │   ├── Suppl_fig1_marker_expression_in_cell_lines.ipynb
+    │   └── output
+    │       └── ..
+    ├── Suppl_fig2
+    │   └── README.md
+    ├── Suppl_fig3
+    │   ├── Suppl_fig3_faceted_volcano_plots.ipynb
+    │   └── output
+    │       └── ..
+    ├── Suppl_fig4
+    │   ├── Suppl_fig4_enrichment_heatmap_all_IPs.ipynb
+    │   └── output
+    │       └── ..
+    ├── Suppl_fig5
+    │   ├── panel_A
+    │   │   ├── Suppl_fig5_A_IP_correlation_vs_interaction_stoi.ipynb
+    │   │   └── output
+    │   │       └── ..
+    │   ├── panel_B
+    │   │   ├── Suppl_fig5_B_enrichment_entropy.ipynb
+    │   │   └── output
+    │   │       └── ..
+    │   └── panel_C
+    │       ├── Suppl_fig5_C_tenary_plots.ipynb
+    │       └── output
+    │           └── ..
+    ├── Suppl_fig6
+    │   ├── panel_B
+    │   │   └── README.md
+    │   ├── panel_C
+    │   │   ├── Suppl_fig6_C_XGBoost_classifier.ipynb
+    │   │   ├── environment.yml
+    │   │   └── output
+    │   │       └── ..
+    │   └── panel_F_G
+    │       ├── Suppl_fig6_F_G_sankey_and_confusion.ipynb
+    │       └── output
+    │           └── ..
+    ├── Suppl_fig7
+    │   └── panel_C
+    │       └── Suppl_fig7_C_upset_plot.ipynb
+    ├── Suppl_fig8
+    │   ├── panel_A
+    │   │   ├── Suppl_fig8_A_external_UMAPs.ipynb
+    │   │   ├── output
+    │   │   │   └── ..
+    │   │   └── process_external_spatial_datasets
+    │   │       └── ..
+    │   └── panel_B
+    │       ├── Suppl_fig8_B_score_external_dataset.ipynb
+    │       ├── Suppl_fig8_B_score_internal_dataset.ipynb
+    │       ├── output
+    │       │   └── ..
+    │       └── process_internal_variant
+    │           └── ..
+    ├── Suppl_fig9
+    │   └── README.md
+    ├── Suppl_fig10
+    │   └── README.md
+    ├── Suppl_fig11
+    │   └── panel_C_D
+    │       └── Suppl_fig11_C_D_UMAP_with_virus_proteins.ipynb
+    │   
+    └── Suppl_fig12
+        └── README.md
 ```
 
 
