@@ -1,6 +1,6 @@
 # Global organelle profiling defines a sub-cellular map of the human proteome
 
-This repository serves as a comprehensive resource for exploring and understanding our manuscript, [Global Organelle Profiling Defines a Sub-Cellular Map of the Human Proteome](https://www.biorxiv.org/content/10.1101/2023.12.18.572249v1). Inside, you'll find detailed Jupyter notebooks and scripts that were pivotal in our data analysis process and in generating the figures.
+This repository serves as a comprehensive resource for exploring and understanding our manuscript, [Global organelle profiling reveals subcellular localization and remodeling at proteome scale](https://www.biorxiv.org/content/10.1101/2023.12.18.572249v1). Inside, you'll find detailed Jupyter notebooks and scripts that were pivotal in our data analysis process and in generating the figures.
 
 Our aim is to provide an in-depth, transparent view into our research methods and findings. Dive into our notebooks to see how we transformed raw data into meaningful insights, or explore our scripts to understand the technical underpinnings of our figure generation. We hope this repository will be a useful tool in your own research and learning journey.
 
