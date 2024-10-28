@@ -23,8 +23,8 @@ To reproduce the figures, set `USE_FROZEN = True` in both `notebooks/0.Set_times
 ### Fresh run
 To begin a distinct run, set `USE_FROZEN = False` in both `notebooks/0.Set_timestamp.ipynb` and `notebooks/Fig5/0.Set_fig5_timestamp.ipynb`, and execute these notebooks. This will generate a new timestamp, which subsequent notebooks will use to save their output files. The notebooks will then utilize the MaxQuant output file (refer to the `data/` section) to regenerate the enrichment tables with slight variations in the random imputations of missing values.
 
-### Supplementary figure 6 panel B
-Supplementary figure 6 panel B uses a separate conda environment specification.
+### Supplementary figure 6 panel C
+Supplementary figure 6 panel C uses a separate conda environment specification.
 ```sh
 conda env create -n xgb2 -f notebooks/Supplementary_figures/Suppl_fig6/panel_C/environment.yml
 conda activate xgb2
