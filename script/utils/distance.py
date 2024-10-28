@@ -1,6 +1,8 @@
 import numpy as np
 import pandas as pd
 from scipy.spatial.distance import pdist, squareform
+
+
 # functions to compute distance matrices
 def calc_dist_mat(data, method="euclidean"):
     if method not in ["minkowski", "seuclidean", "mahalanobis"]:
@@ -14,10 +16,16 @@ def calc_dist_mat(data, method="euclidean"):
     # return square form of distance matrix
     return squareform(dist_mat)
 
-
 def calc_all_dist_mat(
-    data, method_list=["euclidean", "canberra", "correlation", "cosine", "minkowski"]
-):  # other possible values are 'braycurtis', 'chebyshev', 'cityblock',  'dice', 'euclidean', 'hamming', 'jaccard', 'jensenshannon', 'kulczynski1', 'mahalanobis', 'matching', 'minkowski', 'rogerstanimoto', 'russellrao', 'seuclidean', 'sokalmichener', 'sokalsneath', 'sqeuclidean', 'yule'
+    data, method_list=["canberra", "correlation", "cosine"]
+):  
+    '''
+    Calculate distance matrices for a given data matrix using a list of distance metrics.
+    possible distance methods are: 'braycurtis', 'canberra', 'chebyshev', 'cityblock', 
+    'correlation', 'cosine', 'dice', 'euclidean', 'hamming', 'jaccard', 'jensenshannon', 
+    'kulczynski1', 'mahalanobis', 'matching', 'minkowski', 'rogerstanimoto', 'russellrao', 
+    'seuclidean', 'sokalmichener', 'sokalsneath', 'sqeuclidean', 'yule'
+    '''
     dist_mat_dict = {}
     for method in method_list:
         dist_mat_dict[method] = calc_dist_mat(data, method)
@@ -60,3 +68,19 @@ def compute_spectral_cluster_distance(df, n_neighbors=20, n_clusters=5):
             pairwise_dist_df.iloc[j, i] = distance
 
     return pairwise_dist_df
+
+
+def extract_pairwise_distances(matrix, names):
+    '''function to extract pairwise distances'''
+    # names: a list where the indices correspond to the names.
+    n = matrix.shape[0]
+    pairwise_distances = {}
+    
+    for i in range(n):
+        for j in range(i + 1, n):
+            if i == j or names[i] == names[j]:
+                continue
+            pair = frozenset([names[i], names[j]])
+            pairwise_distances[pair] = matrix[i, j]
+    
+    return pairwise_distances

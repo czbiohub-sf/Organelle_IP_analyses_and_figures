@@ -26,7 +26,7 @@ To begin a distinct run, set `USE_FROZEN = False` in both `notebooks/0.Set_times
 ### Supplementary figure 6 panel B
 Supplementary figure 6 panel B uses a separate conda environment specification.
 ```sh
-conda env create -n xgb2 -f notebooks/Supplementary_figures/Suppl_fig6/panel_B/environment.yml
+conda env create -n xgb2 -f notebooks/Supplementary_figures/Suppl_fig6/panel_C/environment.yml
 conda activate xgb2
 ```
 
