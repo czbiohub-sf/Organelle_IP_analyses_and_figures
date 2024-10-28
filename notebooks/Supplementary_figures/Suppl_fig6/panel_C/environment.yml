@@ -1,6 +1,7 @@
 name: xgb2
 channels:
   - anaconda
+  - conda-forge
   - nodefaults
 dependencies:
   - bzip2=1.0.8
@@ -16,6 +17,15 @@ dependencies:
   - wheel=0.41.2
   - xz=5.4.2
   - zlib=1.2.13
+  - pytomlpp=1.0.13
+  - pynndescent=0.5.10
+  - pydantic==1.10.2
+  - appdirs
+  - tornado==6.3.3
+  - pyzmq==25.1.1
+  - traitlets==5.8.1
+  - psutil==5.9.6
+  - debugpy==1.8.0
   - pip:
       - adata==1.1.1
       - anndata==0.10.2
@@ -30,10 +40,9 @@ dependencies:
       - comm==0.1.4
       - contourpy==1.1.1
       - cycler==0.12.1
-      - debugpy==1.8.0
       - decorator==5.1.1
       - dill==0.3.7
-      - executing==2.0.0
+      - executing==2.0.1
       - fastjsonschema==2.18.1
       - fonttools==4.43.1
       - h5py==3.10.0
@@ -71,17 +80,14 @@ dependencies:
       - platformdirs==3.11.0
       - plotly==5.17.0
       - prompt-toolkit==3.0.39
-      - psutil==5.9.6
       - pure-eval==0.2.2
       - py-mini-racer==0.6.0
       - pyaml==23.9.7
       - pygments==2.16.1
-      - pynndescent==0.5.10
       - pyparsing==3.1.1
       - python-dateutil==2.8.2
       - pytz==2023.3.post1
       - pyyaml==6.0.1
-      - pyzmq==25.1.1
       - referencing==0.30.2
       - requests==2.31.0
       - rpds-py==0.10.6
@@ -100,9 +106,7 @@ dependencies:
       - tenacity==8.2.3
       - texttable==1.7.0
       - threadpoolctl==3.2.0
-      - tornado==6.3.3
       - tqdm==4.66.1
-      - traitlets==5.8.1
       - tzdata==2023.3
       - umap-learn==0.5.4
       - urllib3==2.0.7

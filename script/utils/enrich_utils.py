@@ -112,3 +112,77 @@ def run_enrichr(cluster_col, df, background_response, verbose=True):
         print("done", flush=True) if verbose else None
 
     return enrichr_results, df_GO_CC, df_JCOMP
+
+def remove_clu_num_and_map_names(df, col1 ,col2):
+    '''
+    Consolidate and standardize compartment annotation names by grouping detailed components under their corresponding high-level compartment names.
+    this step will be fully automated in the new python package we are developing for Organelle IP analysis, 
+    and will be available at https://github.com/czbiohub-sf/orgipy
+    '''
+    df["cluster_annot_uninf"] = df[col1].map(lambda x: x.split(":")[1])
+    df["cluster_annot_inf"] = df[col2].map(lambda x: x.split(":")[1])
+
+    df["cluster_annot_uninf"].replace("Nucleolus", "nucleus", inplace=True)
+    df["cluster_annot_inf"].replace("Nucleolus", "nucleus", inplace=True)
+    df["cluster_annot_uninf"].replace("Nuclear Lumen", "nucleus", inplace=True)
+    df["cluster_annot_inf"].replace("Nuclear Lumen", "nucleus", inplace=True)
+    df["cluster_annot_uninf"].replace("Nucleus", "nucleus", inplace=True)
+    df["cluster_annot_inf"].replace("Nucleus", "nucleus", inplace=True)
+    df["cluster_annot_inf"].replace("Cilium","nucleus", inplace=True)
+    
+    df["cluster_annot_uninf"].replace("cullin-RING Ubiquitin Ligase Complex", "cytosol", inplace=True)
+    df["cluster_annot_inf"].replace("cullin-RING Ubiquitin Ligase Complex", "cytosol", inplace=True)
+    df["cluster_annot_uninf"].replace("Cytoplasmic Vesicle Lumen", "cytosol", inplace=True)
+    df["cluster_annot_inf"].replace("Cytoplasmic Vesicle Lumen", "cytosol", inplace=True)
+    df["cluster_annot_uninf"].replace("Secretory Granule Lumen", "cytosol", inplace=True)
+    df["cluster_annot_inf"].replace("Secretory Granule Lumen", "cytosol", inplace=True)
+    df["cluster_annot_inf"].replace("Ficolin-1-Rich Granule Lumen", "cytosol", inplace=True)
+    df["cluster_annot_uninf"].replace("Ficolin-1-Rich Granule Lumen", "cytosol", inplace=True)
+    df["cluster_annot_inf"].replace("Protein Serine/Threonine Phosphatase Complex", "cytosol", inplace=True)
+    df["cluster_annot_uninf"].replace("Protein Serine/Threonine Phosphatase Complex", "cytosol", inplace=True)
+    df["cluster_annot_inf"].replace("RNA Polymerase III Complex", "cytosol", inplace=True)
+    df["cluster_annot_uninf"].replace("RNA Polymerase III Complex", "cytosol", inplace=True)
+
+    df["cluster_annot_uninf"].replace("Endoplasmic Reticulum Membrane", "ER", inplace=True)
+    df["cluster_annot_inf"].replace("Endoplasmic Reticulum Membrane", "ER", inplace=True)
+    df["cluster_annot_uninf"].replace("Golgi Membrane", "ERGIC/Golgi", inplace=True)
+    df["cluster_annot_inf"].replace("Golgi Membrane", "ERGIC/Golgi", inplace=True)
+
+    df["cluster_annot_uninf"].replace("Mitochondrial Membrane", "mitochondrion", inplace=True)
+    df["cluster_annot_inf"].replace("Mitochondrial Membrane", "mitochondrion", inplace=True)
+
+    df["cluster_annot_inf"].replace("Cell-Cell Junction", "plasma memb. & actin", inplace=True)
+    df["cluster_annot_uninf"].replace("Cell-Cell Junction", "plasma memb. & actin", inplace=True)
+    df["cluster_annot_uninf"].replace("Cell-Substrate Junction", "plasma memb. & actin", inplace=True)
+    df["cluster_annot_inf"].replace("Basolateral Plasma Membrane", "plasma memb. & actin", inplace=True)
+    df["cluster_annot_uninf"].replace("Basolateral Plasma Membrane", "plasma memb. & actin", inplace=True)
+    df["cluster_annot_uninf"].replace("Actin Cytoskeleton", "plasma memb. & actin", inplace=True)
+    df["cluster_annot_inf"].replace("Actin Cytoskeleton", "plasma memb. & actin", inplace=True)
+    df["cluster_annot_inf"].replace("Cytoskeleton", "plasma memb. & actin", inplace=True)
+    df["cluster_annot_uninf"].replace("Cytoskeleton", "plasma memb. & actin", inplace=True)
+
+    df["cluster_annot_uninf"].replace("COPI Vesicle Coat", "COPI vesicle", inplace=True)
+    df["cluster_annot_inf"].replace("COPI Vesicle Coat", "COPI vesicle", inplace=True)
+
+    df["cluster_annot_uninf"].replace("Lysosome", "endo-lysosome & trans-Golgi", inplace=True)
+    df["cluster_annot_inf"].replace("Lysosome", "endo-lysosome & trans-Golgi", inplace=True)
+
+    df["cluster_annot_uninf"].replace("Ribosome", "translation/RNA granules", inplace=True)
+    df["cluster_annot_inf"].replace("Ribosome", "translation/RNA granules", inplace=True)
+
+    df["cluster_annot_uninf"].replace("Peroxisome", "peroxisome", inplace=True)
+    df["cluster_annot_inf"].replace("Peroxisome", "peroxisome", inplace=True)
+
+    df["cluster_annot_uninf"].replace("Mitotic Spindle Microtubule", "centrosome", inplace=True)
+    df["cluster_annot_inf"].replace("Mitotic Spindle Microtubule", "centrosome", inplace=True)
+    df["cluster_annot_inf"].replace("Protein Phosphatase Type 2A Complex", "centrosome", inplace=True)
+    df["cluster_annot_uninf"].replace("Protein Phosphatase Type 2A Complex", "centrosome", inplace=True)
+
+    df["cluster_annot_uninf"].replace("NA", "cytosol", inplace=True) # unlabelled is signaling scaffold, which take the same color as cytosol
+
+    df["cluster_annot_uninf"].replace("Cilium", "unlabelled", inplace=True)
+    
+    df["cluster_annot_inf"].replace("NA", "unlabelled", inplace=True)
+    df["cluster_annot_uninf"].fillna("unlabelled", inplace=True)
+    df["cluster_annot_inf"].fillna("unlabelled", inplace=True)
+    return df
