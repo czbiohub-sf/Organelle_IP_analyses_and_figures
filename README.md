@@ -17,6 +17,13 @@ conda env create -n OrgIP -f environment.yml
 conda activate OrgIP
 ```
 
+### Download MaxQuant file
+The MaxQuant abundance data is too large to include in the repository. Download it manually from PRIDE under PXD046440, or by running the code below.
+
+```
+sh download_mq_data.sh
+```
+
 ### Reproducing figures
 To reproduce the figures, set `USE_FROZEN = True` in both `notebooks/0.Set_timestamp.ipynb` and `notebooks/Fig5/0.Set_fig5_timestamp.ipynb`, and execute these  notebooks. The notebooks will search for the frozen enrichment tables that were used to generate the figures.
 
